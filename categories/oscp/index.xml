@@ -13,14 +13,6 @@
     <language>en</language>
     <atom:link href="https://crackernote.github.io/categories/oscp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Active Directory Cheatsheet</title>
-      <link>https://crackernote.github.io/posts/2022-03-14-active-directory-cheatsheet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/posts/2022-03-14-active-directory-cheatsheet/</guid>
-      <description>1️⃣ Active Directory Cheatsheet Perform user hunting to track down where users are logged into in the network - find users that are members of high-value groups. Dump credentials and/or obtain Kerberos tickets. Gain access to the user&amp;rsquo;s machine using creds/ticket. (Possibly) escalate privileges in the machine. Repeat steps above until you have administrative privileges in the Domain Controller. 📜AD Enumeration - Users / Groups / Computers
-상위 권한을 가진 user 찾기 메서드 설명 onCreate() 액티비티 생성 시 호출, 화면에 보이는 뷰의 일반적인 상태를 설정 onStart() 액티비티가 사용자에게 표시되기 직전에 호출 onResume() 액티비티가 사용자와 상호작용 하기 전에 호출 onPause() 시스템이 다른 액티비티를 재개하지 직전에 호출 onStop() 액티비티가 더이상 사용자에게 표시되지 않을 때 호출 onDestroy() 액티비티 소멸 전에 호출(마지막 호출) 📜액티비티 Flow 📜프래그먼트 - 액티비티처럼 이용할 수 있는 뷰</description>
-    </item>
-    <item>
       <title>linux 필수 command</title>
       <link>https://crackernote.github.io/posts/2022-07-20-linux-%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
