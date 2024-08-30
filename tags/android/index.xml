@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Android on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/android/</link>
+    <description>Recent content in Android on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android 보안모델</title>
+      <link>https://crackernote.github.io/posts/android-security-model/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/android-security-model/</guid>
+      <description>1️⃣ Android 보안모델 - 기본적으로 리북스 커널이 제공하는 보안 기능을 사용
+- 스마트폰을 사용하는 방식에 맞게 보안 기능을 재구성
+- 애플리케이션 격리 : Sandbox, Permission, TrustZone
+- 플랫폼 강화 : SELinux, ASLR, Exploit mitigation
+- 디바이스 무결성 : Data Encryption
+- 업무를 위한 기능 : 프로파일 기업 서비스
+📜Sandbox - 앱 설치 시 고유한 UID를 자동으로 할당 (10000번부터 시작) ex) user id u0_a36은 uid 10036번을 가짐
+- UID별로 전용 프로세스 및 디렉터리를 가짐 &amp;lt;- 샌드박스</description>
+    </item>
+    <item>
+      <title>Android 아키텍처</title>
+      <link>https://crackernote.github.io/posts/android-architecture/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/android-architecture/</guid>
+      <description>1️⃣ Android 아키텍처 📜리눅스 커널 - 리눅스 커널을 기반으로 하나, 일반 리눅스 커널과는 다름
+- 경량, 저전력, 안정화, 빠른 반응성 등이 주요 핵심
+- 로우 메로리 킬러, 웨이크락, 익명공유메모리, 바인더, 파라노이드 네트워킹 적용
+📜네이티브 영역 - Init
+&amp;gt; 최초로 시작되는 프로세스로 다른 프로세스를 구동
+&amp;gt; 리눅스와 달리 많은 기능을 init 프로세스 하나에 통합함
+&amp;gt; 전통적인 로그인 처리에 사용되는 /etc/passwd, /etc/group 파일 사용 안함 (모바일이라는 전제조건이 단일 사용자 이기때문에&amp;hellip;)
+- 네이티브 라이브러리</description>
+    </item>
+    <item>
+      <title>Android App 구조</title>
+      <link>https://crackernote.github.io/posts/android-app/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/android-app/</guid>
+      <description>1️⃣ Android App 구성요소 - 4대 컴포넌트 : 액티비티, 서비스, 컨텐츠 프로바이더, 브로드캐스트 리시버
+- 액티비티 : 앱의 기본 실행 단위
+- 서비스 : 백그라운드 작업을 위한 컴포넌트
+- 브로드캐스트 리시버 : 안드로이드 시스템 또는 다른 앱에서 전달하는 메시지 수신
+- 컨텐츠 프로바이더 : 앱 간의 데이터 공유를 목적으로 사용하는 컴포넌트
+- 프래그먼트 : 액티비티처럼 사용할 수 있는 뷰
+- 인텐트 : 앱 구성 요소 사이에서 작업을 요청하는 메시지 객체</description>
+    </item>
+  </channel>
+</rss>

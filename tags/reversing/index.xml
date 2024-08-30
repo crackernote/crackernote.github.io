@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reversing on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/reversing/</link>
+    <description>Recent content in Reversing on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/reversing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assembly 기초</title>
+      <link>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
+      <description>1️⃣ Assembly 기초 📜프로그램과 메모리 - 프로세스 : 메모리에 로드된 프로그램
+- 프로그램은 크게 코드, 데이터로 나누어 볼 수 있음
+- 프로그램에서 사용하는 코드와 데이터는 메모리에 로드되며, 코드 실행 흐름에 따라 변화하는 값들은 스택 또는 힙에 쌓이게됨
+- 운영체제는 프로세스들의 독립적인 공간을 보장함
+- 다른 프로세스의 영역을 함부로 접근하는 것을 막는 매커니즘이 존재
+- 프로세스와 메모리 관리는 운영체제에 의해서 이루어짐
+📜스택(Stack) - LIFO 구조 : Last In - First Out, 가장 처음에 들어간 데이터가 가장 나중에 옴</description>
+    </item>
+    <item>
+      <title>Reversing Basic</title>
+      <link>https://crackernote.github.io/posts/reversing-%EA%B8%B0%EC%B4%88/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/reversing-%EA%B8%B0%EC%B4%88/</guid>
+      <description>1️⃣ Reversing 기초 📜CPU 아키텍처 - CISC (복합 명령어 집합 구조) - 메모리 용량을 적게 차지하는 프로그램을 구성할 수 있도록 설계된 프로세스 - 소규모 라인의 프로그램으로 많은 작업을 수행하기 위해, 강력한 명령어를 명령어 집합에 포함 - 가변 명령어 형식과 길이, 많은 명령어 종류, 복잡한 주소 지정 방식, 복잡한 회로 구성 - 인텔 계열의 프로세서(X86/64)
+- RISC (축약 명령어 집합 구조) - 적은 수의 컴퓨터 명령어를 수행하도록 설계된 프로세서 - 단순하지만 더 빨리 실행되는 소수의 명령어를 사용하는 아키텍처 - 복잡하고 강력한 명령어 집합은 오히려 간단한 명령어의 해석과 실행 시간까지 증가시킴 &amp;raquo; CISC - 단순 명령어, 짧은 사이클 시간, 적재 및 저장 구조, 고정길이 명령어, 단순명령어 형식, 제한된 종류의 주소 지정 방식 - MIPS, ARM - IoT 디바이스 및 스마트폰에서 사용</description>
+    </item>
+  </channel>
+</rss>

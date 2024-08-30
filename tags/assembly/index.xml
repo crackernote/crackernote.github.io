@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Assembly on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/assembly/</link>
+    <description>Recent content in Assembly on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assembly 기초</title>
+      <link>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
+      <description>1️⃣ Assembly 기초 📜프로그램과 메모리 - 프로세스 : 메모리에 로드된 프로그램
+- 프로그램은 크게 코드, 데이터로 나누어 볼 수 있음
+- 프로그램에서 사용하는 코드와 데이터는 메모리에 로드되며, 코드 실행 흐름에 따라 변화하는 값들은 스택 또는 힙에 쌓이게됨
+- 운영체제는 프로세스들의 독립적인 공간을 보장함
+- 다른 프로세스의 영역을 함부로 접근하는 것을 막는 매커니즘이 존재
+- 프로세스와 메모리 관리는 운영체제에 의해서 이루어짐
+📜스택(Stack) - LIFO 구조 : Last In - First Out, 가장 처음에 들어간 데이터가 가장 나중에 옴</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TryHackMe on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/tryhackme/</link>
+    <description>Recent content in TryHackMe on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Basic Pentesting</title>
+      <link>https://crackernote.github.io/posts/tryhackme_basic-pentesting/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/tryhackme_basic-pentesting/</guid>
+      <description>TryHackMe Basic Pentesting 📜 Basic Pentesting &amp;ldquo;Basic Pentesting&amp;rdquo; is a beginner level pentesting room in TryHackMe.
+Let&amp;rsquo;s dive in the room.
+📜 Task 1. Find the services exposed by the machine I used Nmap tool to find the services running on the target system
+Nmap -sC -sV [Target_Machine_IP] ​	Screenshot 1 (nmap results)
+We can see the services are :
+SSH (Port 22) HTTP (Port 80) SAMBA (Port 139 &amp;amp; 445) HTTP-Proxy (Port 8080) ​</description>
+    </item>
+  </channel>
+</rss>

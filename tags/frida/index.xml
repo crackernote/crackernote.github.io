@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frida on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/frida/</link>
+    <description>Recent content in Frida on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/frida/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frida Basic</title>
+      <link>https://crackernote.github.io/posts/frida/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/frida/</guid>
+      <description>1️⃣ Frida 기본 📜Frida? Ole가 개발한 DBI(Dynamic Binary Instrumention) 프레임 워크 (* Instrumentation : 앱이 실행중인 상태에서 코드 명령어를 삽입해 프로세스를 추적, 분석, 디버깅하는 도구) 📜Frida 특징 다양한 플랫폼에서 프로세스에 대한 인젝션이 가능해 큰 확장성을 가짐
+윈도우, 맥OS, GNU/Linux, iOS, Android 및 QNX에서 자바스크립트를 네이티브 앱에 삽입가능
+📜Frida 주요기능 함수 후킹 (특정 함수에 연결하여 반환 값 변경, 함수 재작성 등) 애플리케이션 디버깅 가능 힙 메모리 내 객체 인스턴스 검색 및 사용 실시간 트래픽 스니핑 또는 암호 해독 탈옥 또는 루팅되지 않은 단말기에서도 가능 📜동작방식 📜Frida Tools frida (frida -h)</description>
+    </item>
+    <item>
+      <title>Frida 환경세팅</title>
+      <link>https://crackernote.github.io/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</guid>
+      <description>1️⃣ Frida 환경세팅 📜Frida 환경 녹스 앱 플레이어 (NoX) : samsung SM-G965N 아나콘다 (python) : 프리다는 Python 기반으로 작동하기 때문에 독립된 환경을 제공하는 아나콘다가 편리함 프리다 (12.6.11) 프리다 서버 (Android)(Server 12.6.11) Jadx 1.1.0 : Dex to Java decompiler Target App : 분석 할 앱들.. </description>
+    </item>
+  </channel>
+</rss>
