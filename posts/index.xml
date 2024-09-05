@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://crackernote.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Certified Security 준비_문제풀이</title>
+      <link>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84/</guid>
+      <description>1️⃣ AWS Certified Security 준비_문제풀이 ExamTopics 문제 풀기 (https://www.examtopics.com/exams/amazon/aws-certified-security-specialty/) 📜1번 질문 The Security team believes that a former employee may have gained unauthorized access to AWS resources sometime in the past 3 months by using an identified access key.What approach would enable the Security team to find out what the former employee may have done within AWS?보안 팀은 이전 직원이 식별된 액세스 키를 사용하여 지난 3개월 동안 AWS 리소스에 대한 무단 액세스 권한을 얻었을 수 있다고 생각합니다.</description>
+    </item>
+    <item>
+      <title>AWS Certified Security 준비_용어정리</title>
+      <link>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84_%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84_%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</guid>
+      <description>1️⃣ AWS Certified Security 준비_용어정리 ExamTopics 문제 풀이에서 나온 용어정리 📜1번 용어 내용 CloudTrail AWS CloudTrail 기업의 운영 및 위험 감사, 거버넌스 및 규정 준수를 지원하는 솔루션입니다. AWS 서비스 AWS 계정사용자, 역할 또는 AWS 서비스가 수행한 작업은 에 이벤트로 기록됩니다. CloudTrail 이벤트에는 AWS Management Console, AWS Command Line Interface, AWS SDKs 및 에서 수행한 작업이 포함됩니다APIs CloudWatch </description>
+    </item>
     <item>
       <title>쿠팡 상품 크롤러</title>
       <link>https://crackernote.github.io/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
