@@ -18,7 +18,7 @@
       <link>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</guid>
-      <description>1️⃣ DreamHack Web Beginner_Cookie 문제확인 (https://dreamhack.io/wargame/challenges/6) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+      <description>1️⃣ DreamHack Web Beginner_Cookie 문제확인 (https://dreamhack.io/wargame/challenges/6) 풀dl 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 간단한 로그인 페이지 확인
 문제파일 다운후 코드 확인 가능
 #!/usr/bin/python3 from flask import Flask, request, render_template, make_response, redirect, url_for app = Flask(__name__) try: FLAG = open(&amp;#39;./flag.txt&amp;#39;, &amp;#39;r&amp;#39;).read() except: FLAG = &amp;#39;[**FLAG**]&amp;#39; users = { &amp;#39;guest&amp;#39;: &amp;#39;guest&amp;#39;, &amp;#39;admin&amp;#39;: FLAG } @app.route(&amp;#39;/&amp;#39;) def index(): username = request.cookies.get(&amp;#39;username&amp;#39;, None) if username: return render_template(&amp;#39;index.html&amp;#39;, text=f&amp;#39;Hello {username}, {&amp;#34;flag is &amp;#34; + FLAG if username == &amp;#34;admin&amp;#34; else &amp;#34;you are not admin&amp;#34;}&amp;#39;) return render_template(&amp;#39;index.</description>
