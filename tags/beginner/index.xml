@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Beginner on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/beginner/</link>
+    <description>Recent content in Beginner on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/beginner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DreamHack Web Beginner_FileDownload1</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</guid>
+      <description>1️⃣ DreamHack Web Beginner_File Download 1 문제확인 (https://dreamhack.io/wargame/challenges/37) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 메모를 업로드 할 수 있는 웹서비스 확인
+문제파일 다운후 코드 확인 가능
+#!/usr/bin/env python3 import os import shutil from flask import Flask, request, render_template, redirect from flag import FLAG APP = Flask(__name__) UPLOAD_DIR = &amp;#39;uploads&amp;#39; @APP.route(&amp;#39;/&amp;#39;) def index(): files = os.listdir(UPLOAD_DIR) return render_template(&amp;#39;index.html&amp;#39;, files=files) @APP.route(&amp;#39;/upload&amp;#39;, methods=[&amp;#39;GET&amp;#39;, &amp;#39;POST&amp;#39;]) def upload_memo(): if request.</description>
+    </item>
+    <item>
+      <title>DreamHack Web Beginner_Pathtraversal</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_pathtraversal/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_pathtraversal/</guid>
+      <description>1️⃣ DreamHack Web Beginner_Pathtraversal 문제확인 (https://dreamhack.io/wargame/challenges/12) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 간단한 고객정보 페이지 확인
+문제파일 다운후 코드 확인 가능
+#!/usr/bin/python3 from flask import Flask, request, render_template, abort from functools import wraps import requests import os, json users = { &amp;#39;0&amp;#39;: { &amp;#39;userid&amp;#39;: &amp;#39;guest&amp;#39;, &amp;#39;level&amp;#39;: 1, &amp;#39;password&amp;#39;: &amp;#39;guest&amp;#39; }, &amp;#39;1&amp;#39;: { &amp;#39;userid&amp;#39;: &amp;#39;admin&amp;#39;, &amp;#39;level&amp;#39;: 9999, &amp;#39;password&amp;#39;: &amp;#39;admin&amp;#39; } } def internal_api(func): @wraps(func) def decorated_view(*args, **kwargs): if request.</description>
+    </item>
+    <item>
+      <title>DreamHack Web Beginner_Cookie</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</guid>
+      <description>1️⃣ DreamHack Web Beginner_Cookie 문제확인 (https://dreamhack.io/wargame/challenges/6) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 간단한 로그인 페이지 확인
+문제파일 다운후 코드 확인 가능
+#!/usr/bin/python3 from flask import Flask, request, render_template, make_response, redirect, url_for app = Flask(__name__) try: FLAG = open(&amp;#39;./flag.txt&amp;#39;, &amp;#39;r&amp;#39;).read() except: FLAG = &amp;#39;[**FLAG**]&amp;#39; users = { &amp;#39;guest&amp;#39;: &amp;#39;guest&amp;#39;, &amp;#39;admin&amp;#39;: FLAG } @app.route(&amp;#39;/&amp;#39;) def index(): username = request.cookies.get(&amp;#39;username&amp;#39;, None) if username: return render_template(&amp;#39;index.html&amp;#39;, text=f&amp;#39;Hello {username}, {&amp;#34;flag is &amp;#34; + FLAG if username == &amp;#34;admin&amp;#34; else &amp;#34;you are not admin&amp;#34;}&amp;#39;) return render_template(&amp;#39;index.</description>
+    </item>
+  </channel>
+</rss>
