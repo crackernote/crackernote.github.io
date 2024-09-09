@@ -21,7 +21,7 @@
       <description>1️⃣ FridaLab.apk WriteUp 📜FridaLab? - https://rossmarks.uk/blog/fridalab/ 에서 제공되는 Frida를 익히기 위한 Challenge APK
 📜FridaLab APP - FridaLab app을 Nox 환경에서 실행해 보면 8가지의 문제가 나오는 것을 알 수 있다.
 - 8가지 문제에 대하여 조건이 만족하면 check를 눌렀을때 색상이 Green으로 바뀐다. (조건이 만족하지 못하는 경우는 빨간색!)
-📜문제풀이 (1번) - 문제 : Change class challenge_01&amp;rsquo;s variable &amp;lsquo;chall01&amp;rsquo; to : 1 &amp;gt; 문제는 Challenge_01 클래스의 변수인 chall01의 값을 1로 바꾸라는 것이다. &amp;gt; 문제를 해결하기 위해 Jadx를 통해서 FridaLab을 분석해보자</description>
+📜문제풀이 (1번) - 문제 : Change class challenge_01&amp;rsquo;s variable &amp;lsquo;chall01&amp;rsquo; to : 1 &amp;gt; 문제는 Challenge_01 클래스의 변수인 chall01의 값을 1로 바꾸라는 것이다. &amp;gt; 문제를 해결하기 위해 Jadx를 통해서 FridaLab을 분석해보자 ​	&amp;gt; uk.</description>
     </item>
   </channel>
 </rss>

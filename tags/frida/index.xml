@@ -20,7 +20,7 @@
       <guid>https://crackernote.github.io/posts/frida/</guid>
       <description>1️⃣ Frida 기본 📜Frida? Ole가 개발한 DBI(Dynamic Binary Instrumention) 프레임 워크 (* Instrumentation : 앱이 실행중인 상태에서 코드 명령어를 삽입해 프로세스를 추적, 분석, 디버깅하는 도구) 📜Frida 특징 다양한 플랫폼에서 프로세스에 대한 인젝션이 가능해 큰 확장성을 가짐
 윈도우, 맥OS, GNU/Linux, iOS, Android 및 QNX에서 자바스크립트를 네이티브 앱에 삽입가능
-📜Frida 주요기능 함수 후킹 (특정 함수에 연결하여 반환 값 변경, 함수 재작성 등) 애플리케이션 디버깅 가능 힙 메모리 내 객체 인스턴스 검색 및 사용 실시간 트래픽 스니핑 또는 암호 해독 탈옥 또는 루팅되지 않은 단말기에서도 가능 📜동작방식 📜Frida Tools frida (frida -h)</description>
+📜Frida 주요기능 함수 후킹 (특정 함수에 연결하여 반환 값 변경, 함수 재작성 등) 애플리케이션 디버깅 가능 힙 메모리 내 객체 인스턴스 검색 및 사용 실시간 트래픽 스니핑 또는 암호 해독 탈옥 또는 루팅되지 않은 단말기에서도 가능 📜**동작방식 📜Frida Tools frida (frida -h)</description>
     </item>
     <item>
       <title>Frida 환경세팅</title>

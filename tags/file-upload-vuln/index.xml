@@ -18,7 +18,7 @@
       <link>https://crackernote.github.io/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://crackernote.github.io/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</guid>
-      <description>1️⃣ File Upload 취약점 정리 📜File Upload 취약점 - 서버에 악성스크립트 업로드 하는것
+      <description>1️⃣ File Upload 취약점 정리 📜**File Upload 취약점 - 서버에 악성스크립트 업로드 하는것
 - web server에 업로드 할수 있느냐, WAS에 업로드하느냐가 엄청큰 차이다.
 - PHP기반웹사이트이면 – PHP 파일 업로드
 - ASP – ASP 기반 파일 업로드…

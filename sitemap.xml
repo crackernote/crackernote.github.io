@@ -47,9 +47,6 @@
     <loc>https://crackernote.github.io/tags/basic-pentesting/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://crackernote.github.io/categories/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://crackernote.github.io/tags/tryhackme/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -60,9 +57,6 @@
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://crackernote.github.io/categories/%EC%9E%90%EB%8F%99%ED%99%94/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://crackernote.github.io/tags/%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D/</loc>
@@ -194,6 +188,8 @@
     <loc>https://crackernote.github.io/about/</loc>
   </url><url>
     <loc>https://crackernote.github.io/archives/</loc>
+  </url><url>
+    <loc>https://crackernote.github.io/categories/</loc>
   </url><url>
     <loc>https://crackernote.github.io/categories/pentest/</loc>
   </url><url>

@@ -183,7 +183,7 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
       <description>1️⃣ FridaLab.apk WriteUp 📜FridaLab? - https://rossmarks.uk/blog/fridalab/ 에서 제공되는 Frida를 익히기 위한 Challenge APK
 📜FridaLab APP - FridaLab app을 Nox 환경에서 실행해 보면 8가지의 문제가 나오는 것을 알 수 있다.
 - 8가지 문제에 대하여 조건이 만족하면 check를 눌렀을때 색상이 Green으로 바뀐다. (조건이 만족하지 못하는 경우는 빨간색!)
-📜문제풀이 (1번) - 문제 : Change class challenge_01&amp;rsquo;s variable &amp;lsquo;chall01&amp;rsquo; to : 1 &amp;gt; 문제는 Challenge_01 클래스의 변수인 chall01의 값을 1로 바꾸라는 것이다. &amp;gt; 문제를 해결하기 위해 Jadx를 통해서 FridaLab을 분석해보자</description>
+📜문제풀이 (1번) - 문제 : Change class challenge_01&amp;rsquo;s variable &amp;lsquo;chall01&amp;rsquo; to : 1 &amp;gt; 문제는 Challenge_01 클래스의 변수인 chall01의 값을 1로 바꾸라는 것이다. &amp;gt; 문제를 해결하기 위해 Jadx를 통해서 FridaLab을 분석해보자 ​	&amp;gt; uk.</description>
     </item>
     <item>
       <title>MySQL</title>
@@ -240,7 +240,7 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
       <link>https://crackernote.github.io/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://crackernote.github.io/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</guid>
-      <description>1️⃣ File Upload 취약점 정리 📜File Upload 취약점 - 서버에 악성스크립트 업로드 하는것
+      <description>1️⃣ File Upload 취약점 정리 📜**File Upload 취약점 - 서버에 악성스크립트 업로드 하는것
 - web server에 업로드 할수 있느냐, WAS에 업로드하느냐가 엄청큰 차이다.
 - PHP기반웹사이트이면 – PHP 파일 업로드
 - ASP – ASP 기반 파일 업로드…
@@ -257,7 +257,7 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
       <guid>https://crackernote.github.io/posts/frida/</guid>
       <description>1️⃣ Frida 기본 📜Frida? Ole가 개발한 DBI(Dynamic Binary Instrumention) 프레임 워크 (* Instrumentation : 앱이 실행중인 상태에서 코드 명령어를 삽입해 프로세스를 추적, 분석, 디버깅하는 도구) 📜Frida 특징 다양한 플랫폼에서 프로세스에 대한 인젝션이 가능해 큰 확장성을 가짐
 윈도우, 맥OS, GNU/Linux, iOS, Android 및 QNX에서 자바스크립트를 네이티브 앱에 삽입가능
-📜Frida 주요기능 함수 후킹 (특정 함수에 연결하여 반환 값 변경, 함수 재작성 등) 애플리케이션 디버깅 가능 힙 메모리 내 객체 인스턴스 검색 및 사용 실시간 트래픽 스니핑 또는 암호 해독 탈옥 또는 루팅되지 않은 단말기에서도 가능 📜동작방식 📜Frida Tools frida (frida -h)</description>
+📜Frida 주요기능 함수 후킹 (특정 함수에 연결하여 반환 값 변경, 함수 재작성 등) 애플리케이션 디버깅 가능 힙 메모리 내 객체 인스턴스 검색 및 사용 실시간 트래픽 스니핑 또는 암호 해독 탈옥 또는 루팅되지 않은 단말기에서도 가능 📜**동작방식 📜Frida Tools frida (frida -h)</description>
     </item>
     <item>
       <title>Frida 환경세팅</title>
@@ -272,7 +272,7 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://crackernote.github.io/posts/active-directory-cheatsheet/</guid>
       <description>1️⃣ Active Directory Cheatsheet Perform user hunting to track down where users are logged into in the network - find users that are members of high-value groups. Dump credentials and/or obtain Kerberos tickets. Gain access to the user&amp;rsquo;s machine using creds/ticket. (Possibly) escalate privileges in the machine. Repeat steps above until you have administrative privileges in the Domain Controller. 📜AD Enumeration - Users / Groups / Computers
-상위 권한을 가진 user 찾기 메서드 설명 onCreate() 액티비티 생성 시 호출, 화면에 보이는 뷰의 일반적인 상태를 설정 onStart() 액티비티가 사용자에게 표시되기 직전에 호출 onResume() 액티비티가 사용자와 상호작용 하기 전에 호출 onPause() 시스템이 다른 액티비티를 재개하지 직전에 호출 onStop() 액티비티가 더이상 사용자에게 표시되지 않을 때 호출 onDestroy() 액티비티 소멸 전에 호출(마지막 호출) 📜액티비티 Flow 📜프래그먼트 - 액티비티처럼 이용할 수 있는 뷰</description>
+상위 권한을 가진 user 찾기 메서드 설명 onCreate() 액티비티 생성 시 호출, 화면에 보이는 뷰의 일반적인 상태를 설정 onStart() 액티비티가 사용자에게 표시되기 직전에 호출 onResume() 액티비티가 사용자와 상호작용 하기 전에 호출 onPause() 시스템이 다른 액티비티를 재개하지 직전에 호출 onStop() 액티비티가 더이상 사용자에게 표시되지 않을 때 호출 onDestroy() 액티비티 소멸 전에 호출(마지막 호출) 📜**액티비티 Flow !</description>
     </item>
     <item>
       <title>DreamHack Web Beginner_FileDownload1</title>
