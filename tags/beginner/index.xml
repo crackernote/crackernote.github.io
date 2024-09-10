@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://crackernote.github.io/tags/beginner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DreamHack Web Beginner_Command_Injection1</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_command_injection1/</link>
+      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_command_injection1/</guid>
+      <description>1️⃣ DreamHack Web Beginner_Pathtraversal 문제확인 (https://dreamhack.io/wargame/challenges/44) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 Ping을 할 수 있는 사이트 확인
+문제파일 다운후 코드 확인 가능
+#!/usr/bin/env python3 import subprocess from flask import Flask, request, render_template, redirect from flag import FLAG APP = Flask(__name__) @APP.route(&amp;#39;/&amp;#39;) def index(): return render_template(&amp;#39;index.html&amp;#39;) @APP.route(&amp;#39;/ping&amp;#39;, methods=[&amp;#39;GET&amp;#39;, &amp;#39;POST&amp;#39;]) def ping(): if request.method == &amp;#39;POST&amp;#39;: host = request.form.get(&amp;#39;host&amp;#39;) cmd = f&amp;#39;ping -c 3 &amp;#34;{host}&amp;#34;&amp;#39; try: output = subprocess.</description>
+    </item>
     <item>
       <title>DreamHack Web Beginner_FileDownload1</title>
       <link>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</link>
