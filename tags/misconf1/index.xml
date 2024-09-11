@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Misconf1 on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/misconf1/</link>
+    <description>Recent content in Misconf1 on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/misconf1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DreamHack Web Beginner_misconf1</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_misconf1/</link>
+      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_misconf1/</guid>
+      <description>1️⃣ DreamHack Web Beginner_misconf1 문제확인 (https://dreamhack.io/wargame/challenges/45) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 그라파나 로그인 페이지 확인 가능
+문제파일 다운후 default.ini 설정 파일 확인 가능
+# Google Analytics universal tracking code, only enabled if you specify an id here google_analytics_ua_id = # Google Tag Manager ID, only enabled if you specify an id here google_tag_manager_id = #################################### Security ############################ [security] # disable creation of admin user on first start of grafana disable_initial_admin_creation = false # default admin user, created on startup admin_user = admin # default admin password, can be changed before first start of grafana, or in profile settings admin_password = admin # used for signing secret_key = SW2YcwTIb9zpOOhoPsMm # disable gravatar profile images disable_gravatar = false 설정 파일 중간에 admin 계정과 패스워드 확인 가능 📜풀이 admin / admin 으로 로그인 후 Server Admin &amp;gt; Settings 에 들어가면 플래그 확인 가능</description>
+    </item>
+  </channel>
+</rss>
