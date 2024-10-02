@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Phpreg on CrackerNote</title>
+    <link>https://crackernote.github.io/tags/phpreg/</link>
+    <description>Recent content in Phpreg on CrackerNote</description>
+    <image>
+      <title>CrackerNote</title>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crackernote.github.io/tags/phpreg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DreamHack Web Beginner_phpreg</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</guid>
+      <description>1️⃣ DreamHack Web Beginner_phpreg 문제확인 (https://dreamhack.io/wargame/challenges/873) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
+문제파일 다운후 코드 확인 가능
+&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&amp;#34;&amp;gt;&amp;lt;title&amp;gt;PHPreg&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;!-- Fixed navbar --&amp;gt;&amp;lt;nav class=&amp;#34;navbar navbar-default navbar-fixed-top&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;navbar-header&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;navbar-brand&amp;#34; href=&amp;#34;/&amp;#34;&amp;gt;PHPreg&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div id=&amp;#34;navbar&amp;#34;&amp;gt;&amp;lt;ul class=&amp;#34;nav navbar-nav&amp;#34;&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;/&amp;#34;&amp;gt;Step 1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;/step2.php&amp;#34;&amp;gt;Step 2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;!--/.nav-collapse --&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/nav&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;&amp;lt;!</description>
+    </item>
+  </channel>
+</rss>

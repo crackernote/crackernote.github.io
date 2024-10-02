@@ -17,14 +17,35 @@ CSS 선택자
 id 선택자 (#을 앞에 붙인 후 id 값으로 선택)
 HTML &lt;div id="articleBody"> 본문-- &lt;/div> 선택자 #airticleBody class 선택자 (.을 앞에 붙인 후 class 값으로 선택)
 HTML &lt;div class="info_group"> 뉴스목록 &lt;/div> 선택자 .airticleBody 자식 선택자 (바로 아래에 있는 태그를 선택한다)...</p></div><footer class=entry-footer><span title='2023-10-20 00:00:00 +0000 UTC'>October 20, 2023</span>&nbsp;·&nbsp;CrackerNote</footer><a class=entry-link aria-label="post link to crawler" href=https://crackernote.github.io/posts/crawler/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>네이버 뉴스 크롤러</h2></header><div class=entry-content><p>네이버 뉴스 크롤러 📜네이버 뉴스 크롤링 네이버 뉴스 검색 > 일반, 연예, 스포츠 뉴스가 각각 다르게 크롤링 후 엑셀파일에 저장
-import requests from bs4 import BeautifulSoup import pyautogui from openpyxl import Workbook from openpyxl.styles import Alignment # 사용자 입력 keyword = pyautogui.prompt("검색어를 입력하세요") lastpage = int(pyautogui.prompt("몇 페이지까지 크롤링 할까요?")) pageNum = 1 # 엑셀 생성하기 wb = Workbook() # 워크 시트 생성하기 ws = wb.create_sheet(f"{keyword}") # 열 너비 조절 ws....</p></div><footer class=entry-footer><span title='2023-10-20 00:00:00 +0000 UTC'>October 20, 2023</span>&nbsp;·&nbsp;CrackerNote</footer><a class=entry-link aria-label="post link to 네이버 뉴스 크롤러" href=https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Practical Tools</h2></header><div class=entry-content><p>1️⃣ Practical Tools 📜Netcat tcp , udp protocol 사용
-Connecting tcp/udp port
-nc -nv 10.11.0.22 4444 Listening on a TCP/UDP Port
-nc -nlvp 4444 Transferring Files w/ Netcat
-nc -nlvp 4444 > incoming.exe nc -nv 10.11.0.22 4444 &lt; /usr/share/windows-resources/binaries/wget.exe 📜Socat Connecting
-socat - TCP4:&lt;remote server’s ip address>:80 Listening
-sudo socat TCP4-LISTEN:443 STDOUT File Transfers
-sudo socat TCP4-LISTEN:443,fork file:secret_passwords.txt 📜Powershell and powercat 📜Wireshark 📜Tcpdump</p></div><footer class=entry-footer><span title='2023-09-20 00:00:00 +0000 UTC'>September 20, 2023</span>&nbsp;·&nbsp;CrackerNote</footer><a class=entry-link aria-label="post link to Practical Tools" href=https://crackernote.github.io/posts/practical-tools/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://crackernote.github.io/posts/>«&nbsp;Prev&nbsp;
+import requests from bs4 import BeautifulSoup import pyautogui from openpyxl import Workbook from openpyxl.styles import Alignment # 사용자 입력 keyword = pyautogui.prompt("검색어를 입력하세요") lastpage = int(pyautogui.prompt("몇 페이지까지 크롤링 할까요?")) pageNum = 1 # 엑셀 생성하기 wb = Workbook() # 워크 시트 생성하기 ws = wb.create_sheet(f"{keyword}") # 열 너비 조절 ws....</p></div><footer class=entry-footer><span title='2023-10-20 00:00:00 +0000 UTC'>October 20, 2023</span>&nbsp;·&nbsp;CrackerNote</footer><a class=entry-link aria-label="post link to 네이버 뉴스 크롤러" href=https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>DreamHack Web Beginner_php7cmp4re</h2></header><div class=entry-content><p>1️⃣ DreamHack Web Beginner_php7cmp4re 문제확인 (https://dreamhack.io/wargame/challenges/1113) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
+문제파일 다운후 코드 확인 가능
+&lt;html>
+&lt;head>
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+&lt;title>php7cmp4re&lt;/title>
+&lt;/head>
+&lt;body>
+&lt;!-- Fixed navbar -->
+&lt;nav class="navbar navbar-default navbar-fixed-top">
+&lt;div class="container">
+&lt;div class="navbar-header">
+&lt;a class="navbar-brand" href="/">php7cmp4re&lt;/a>
+&lt;/div>
+&lt;div id="navbar">
+&lt;ul class="nav navbar-nav">
+&lt;li>&lt;a href="/">Index page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>&lt;!--/.nav-collapse -->
+&lt;/div>
+&lt;/nav>
+&lt;div class="container">
+&lt;?php
+require_once('flag.php');
+error_reporting(0);
+// POST request
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+$input_1 = $_POST["input1"] ?...</p></div><footer class=entry-footer><span title='2023-09-25 00:00:00 +0000 UTC'>September 25, 2023</span>&nbsp;·&nbsp;CrackerNote</footer><a class=entry-link aria-label="post link to DreamHack Web Beginner_php7cmp4re" href=https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://crackernote.github.io/posts/>«&nbsp;Prev&nbsp;
 </a><a class=next href=https://crackernote.github.io/posts/page/3/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2024 <a href=https://crackernote.github.io/>CrackerNote</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

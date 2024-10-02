@@ -68,6 +68,24 @@
     <loc>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</loc>
     <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://crackernote.github.io/tags/beginner/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/dreamhack/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/php7cmp4re/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/wargame/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/web/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://crackernote.github.io/tags/offensive-security/</loc>
     <lastmod>2023-09-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -91,6 +109,18 @@
   </url><url>
     <loc>https://crackernote.github.io/tags/reversing/</loc>
     <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/posts/dreamhack_web_beginner_ex-reg-ex/</loc>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</loc>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/ex-reg-ex/</loc>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/phpreg/</loc>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://crackernote.github.io/tags/sql-injection/</loc>
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
@@ -149,19 +179,25 @@
     <loc>https://crackernote.github.io/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://crackernote.github.io/posts/dreamhack_web_beginner_simple-web-request/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/simple-web-request/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/tags/devtools-sources/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://crackernote.github.io/tags/active-directory/</loc>
     <lastmod>2023-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://crackernote.github.io/posts/active-directory-cheatsheet/</loc>
     <lastmod>2023-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://crackernote.github.io/tags/beginner/</loc>
-    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://crackernote.github.io/tags/command-injection/</loc>
-    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://crackernote.github.io/tags/dreamhack/</loc>
     <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://crackernote.github.io/posts/dreamhack_web_beginner_command_injection1/</loc>
@@ -177,12 +213,6 @@
     <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://crackernote.github.io/tags/session/</loc>
-    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://crackernote.github.io/tags/wargame/</loc>
-    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://crackernote.github.io/tags/web/</loc>
     <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</loc>

@@ -97,6 +97,16 @@ HTML &amp;lt;div class=&amp;#34;info_group&amp;#34;&amp;gt; 뉴스목록 &amp;lt
 import requests from bs4 import BeautifulSoup import pyautogui from openpyxl import Workbook from openpyxl.styles import Alignment # 사용자 입력 keyword = pyautogui.prompt(&amp;#34;검색어를 입력하세요&amp;#34;) lastpage = int(pyautogui.prompt(&amp;#34;몇 페이지까지 크롤링 할까요?&amp;#34;)) pageNum = 1 # 엑셀 생성하기 wb = Workbook() # 워크 시트 생성하기 ws = wb.create_sheet(f&amp;#34;{keyword}&amp;#34;) # 열 너비 조절 ws.</description>
     </item>
     <item>
+      <title>DreamHack Web Beginner_php7cmp4re</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/</guid>
+      <description>1️⃣ DreamHack Web Beginner_php7cmp4re 문제확인 (https://dreamhack.io/wargame/challenges/1113) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
+문제파일 다운후 코드 확인 가능
+&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&amp;#34;&amp;gt;&amp;lt;title&amp;gt;php7cmp4re&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;!-- Fixed navbar --&amp;gt;&amp;lt;nav class=&amp;#34;navbar navbar-default navbar-fixed-top&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;navbar-header&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;navbar-brand&amp;#34; href=&amp;#34;/&amp;#34;&amp;gt;php7cmp4re&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div id=&amp;#34;navbar&amp;#34;&amp;gt;&amp;lt;ul class=&amp;#34;nav navbar-nav&amp;#34;&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;/&amp;#34;&amp;gt;Index page&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;!--/.nav-collapse --&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/nav&amp;gt;&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&amp;lt;?phprequire_once(&amp;#39;flag.php&amp;#39;);error_reporting(0);// POST requestif ($_SERVER[&amp;#34;REQUEST_METHOD&amp;#34;] == &amp;#34;POST&amp;#34;) {$input_1 = $_POST[&amp;#34;input1&amp;#34;] ?</description>
+    </item>
+    <item>
       <title>Practical Tools</title>
       <link>https://crackernote.github.io/posts/practical-tools/</link>
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
@@ -146,6 +156,26 @@ sudo ss -antlp | grep apache</description>
 - 다른 프로세스의 영역을 함부로 접근하는 것을 막는 매커니즘이 존재
 - 프로세스와 메모리 관리는 운영체제에 의해서 이루어짐
 📜스택(Stack) - LIFO 구조 : Last In - First Out, 가장 처음에 들어간 데이터가 가장 나중에 옴</description>
+    </item>
+    <item>
+      <title>DreamHack Web Beginner_ex-reg-ex</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_ex-reg-ex/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_ex-reg-ex/</guid>
+      <description>1️⃣ DreamHack Web Beginner_ex-reg-ex 문제확인 (https://dreamhack.io/wargame/challenges/834) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 Input 값을 넣는 페이지 확인 가능
+문제파일 다운후 코드 확인 가능
+#!/usr/bin/python3 from flask import Flask, request, render_template import re app = Flask(__name__) try: FLAG = open(&amp;#34;./flag.txt&amp;#34;, &amp;#34;r&amp;#34;).read() # flag is here! except: FLAG = &amp;#34;[**FLAG**]&amp;#34; @app.route(&amp;#34;/&amp;#34;, methods = [&amp;#34;GET&amp;#34;, &amp;#34;POST&amp;#34;]) def index(): input_val = &amp;#34;&amp;#34; if request.method == &amp;#34;POST&amp;#34;: input_val = request.</description>
+    </item>
+    <item>
+      <title>DreamHack Web Beginner_phpreg</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</guid>
+      <description>1️⃣ DreamHack Web Beginner_phpreg 문제확인 (https://dreamhack.io/wargame/challenges/873) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
+문제파일 다운후 코드 확인 가능
+&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&amp;#34;&amp;gt;&amp;lt;title&amp;gt;PHPreg&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;!-- Fixed navbar --&amp;gt;&amp;lt;nav class=&amp;#34;navbar navbar-default navbar-fixed-top&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;navbar-header&amp;#34;&amp;gt;&amp;lt;a class=&amp;#34;navbar-brand&amp;#34; href=&amp;#34;/&amp;#34;&amp;gt;PHPreg&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div id=&amp;#34;navbar&amp;#34;&amp;gt;&amp;lt;ul class=&amp;#34;nav navbar-nav&amp;#34;&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;/&amp;#34;&amp;gt;Step 1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;/step2.php&amp;#34;&amp;gt;Step 2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;!--/.nav-collapse --&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/nav&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;box&amp;#34;&amp;gt;&amp;lt;!</description>
     </item>
     <item>
       <title>SQL Injection 취약점 점검</title>
@@ -267,6 +297,25 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
       <description>1️⃣ Frida 환경세팅 📜Frida 환경 녹스 앱 플레이어 (NoX) : samsung SM-G965N 아나콘다 (python) : 프리다는 Python 기반으로 작동하기 때문에 독립된 환경을 제공하는 아나콘다가 편리함 프리다 (12.6.11) 프리다 서버 (Android)(Server 12.6.11) Jadx 1.1.0 : Dex to Java decompiler Target App : 분석 할 앱들.. </description>
     </item>
     <item>
+      <title>DreamHack Web Beginner_simple-web-request</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_simple-web-request/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_simple-web-request/</guid>
+      <description>1️⃣ DreamHack Web Beginner_simple-web-request 문제확인 (https://dreamhack.io/wargame/challenges/830) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+서버 오픈 후 접속하면 아래와 같이 메인 페이지와 step1 을 확인 가능
+문제파일 다운후 코드 확인 가능
+#!/usr/bin/python3 import os from flask import Flask, request, render_template, redirect, url_for import sys app = Flask(__name__) try: # flag is here! FLAG = open(&amp;#34;./flag.txt&amp;#34;, &amp;#34;r&amp;#34;).read() except: FLAG = &amp;#34;[**FLAG**]&amp;#34; @app.route(&amp;#34;/&amp;#34;) def index(): return render_template(&amp;#34;index.html&amp;#34;) @app.route(&amp;#34;/step1&amp;#34;, methods=[&amp;#34;GET&amp;#34;, &amp;#34;POST&amp;#34;]) def step1(): #### 풀이와 관계없는 치팅 방지 코드 global step1_num step1_num = int.</description>
+    </item>
+    <item>
+      <title>DreamHack Web Beginner_devtools-sources</title>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</guid>
+      <description>1️⃣ DreamHack Web Beginner_devtools-sources 문제확인 (https://dreamhack.io/wargame/challenges/267) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
+이문제는 서버가 없으므로 다운로드된 파일에서 index.html 을 실행해본다
+📜풀이 개발자 도구에 들어가 여러가지 파일들을 확인하면 main.css에 주석으로 Flag 값을 확인할 수 있음</description>
+    </item>
+    <item>
       <title>Active Directory Cheatsheet</title>
       <link>https://crackernote.github.io/posts/active-directory-cheatsheet/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
@@ -300,9 +349,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_session/</guid>
       <description>1️⃣ DreamHack Web Beginner_session 문제확인 (https://dreamhack.io/wargame/challenges/266) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
-서버 오픈 후 접속하면 아래와 같이 Ping을 할 수 있는 사이트 확인
+서버 오픈 후 접속하면 아래와 같이 로그인 페이지를 확인 할 수 있음
 문제파일 다운후 코드 확인 가능
-#!/usr/bin/env python3 import subprocess from flask import Flask, request, render_template, redirect from flag import FLAG APP = Flask(__name__) @APP.route(&amp;#39;/&amp;#39;) def index(): return render_template(&amp;#39;index.html&amp;#39;) @APP.route(&amp;#39;/ping&amp;#39;, methods=[&amp;#39;GET&amp;#39;, &amp;#39;POST&amp;#39;]) def ping(): if request.method == &amp;#39;POST&amp;#39;: host = request.form.get(&amp;#39;host&amp;#39;) cmd = f&amp;#39;ping -c 3 &amp;#34;{host}&amp;#34;&amp;#39; try: output = subprocess.</description>
+#!/usr/bin/python3 from flask import Flask, request, render_template, make_response, redirect, url_for app = Flask(__name__) try: FLAG = open(&amp;#39;./flag.txt&amp;#39;, &amp;#39;r&amp;#39;).read() except: FLAG = &amp;#39;[**FLAG**]&amp;#39; users = { &amp;#39;guest&amp;#39;: &amp;#39;guest&amp;#39;, &amp;#39;user&amp;#39;: &amp;#39;user1234&amp;#39;, &amp;#39;admin&amp;#39;: FLAG } session_storage = { } @app.route(&amp;#39;/&amp;#39;) def index(): session_id = request.</description>
     </item>
     <item>
       <title>DreamHack Web Beginner_FileDownload1</title>
