@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Offensive Security on CrackerNote</title>
-    <link>http://localhost:1313/tags/offensive-security/</link>
+    <link>https://crackernote.github.io/tags/offensive-security/</link>
     <description>Recent content in Offensive Security on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/offensive-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/tags/offensive-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Practical Tools</title>
-      <link>http://localhost:1313/posts/practical-tools/</link>
+      <link>https://crackernote.github.io/posts/practical-tools/</link>
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/practical-tools/</guid>
+      <guid>https://crackernote.github.io/posts/practical-tools/</guid>
       <description>1️⃣ Practical Tools 📜Netcat tcp , udp protocol 사용
 Connecting tcp/udp port
 nc -nv 10.11.0.22 4444 Listening on a TCP/UDP Port
@@ -29,9 +29,9 @@ sudo socat TCP4-LISTEN:443,fork file:secret_passwords.txt 📜Powershell and pow
     </item>
     <item>
       <title>linux 필수 command</title>
-      <link>http://localhost:1313/posts/linux-%EA%B8%B0%EC%B4%88/</link>
+      <link>https://crackernote.github.io/posts/linux-%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/linux-%EA%B8%B0%EC%B4%88/</guid>
+      <guid>https://crackernote.github.io/posts/linux-%EA%B8%B0%EC%B4%88/</guid>
       <description>1️⃣ linux 필수 Command 📜Man Pages man 📜apropos apropos 📜Listing Files ls -al 📜Moving Around cd
 pwd
 📜Creating Directories mkdir
@@ -53,9 +53,9 @@ sudo ss -antlp | grep apache</description>
     </item>
     <item>
       <title>Active Directory Cheatsheet</title>
-      <link>http://localhost:1313/posts/active-directory-cheatsheet/</link>
+      <link>https://crackernote.github.io/posts/active-directory-cheatsheet/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/active-directory-cheatsheet/</guid>
+      <guid>https://crackernote.github.io/posts/active-directory-cheatsheet/</guid>
       <description>1️⃣ Active Directory Cheatsheet Perform user hunting to track down where users are logged into in the network - find users that are members of high-value groups. Dump credentials and/or obtain Kerberos tickets. Gain access to the user&amp;rsquo;s machine using creds/ticket. (Possibly) escalate privileges in the machine. Repeat steps above until you have administrative privileges in the Domain Controller. 📜AD Enumeration - Users / Groups / Computers
 상위 권한을 가진 user 찾기 메서드 설명 onCreate() 액티비티 생성 시 호출, 화면에 보이는 뷰의 일반적인 상태를 설정 onStart() 액티비티가 사용자에게 표시되기 직전에 호출 onResume() 액티비티가 사용자와 상호작용 하기 전에 호출 onPause() 시스템이 다른 액티비티를 재개하지 직전에 호출 onStop() 액티비티가 더이상 사용자에게 표시되지 않을 때 호출 onDestroy() 액티비티 소멸 전에 호출(마지막 호출) 📜**액티비티 Flow !</description>
     </item>

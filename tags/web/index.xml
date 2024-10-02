@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Web on CrackerNote</title>
-    <link>http://localhost:1313/tags/web/</link>
+    <link>https://crackernote.github.io/tags/web/</link>
     <description>Recent content in Web on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DreamHack Web Beginner_php7cmp4re</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_php7cmp4re/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_php7cmp4re/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/</guid>
       <description>1️⃣ DreamHack Web Beginner_php7cmp4re 문제확인 (https://dreamhack.io/wargame/challenges/1113) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
 문제파일 다운후 코드 확인 가능
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_ex-reg-ex</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_ex-reg-ex/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_ex-reg-ex/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_ex-reg-ex/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_ex-reg-ex/</guid>
       <description>1️⃣ DreamHack Web Beginner_ex-reg-ex 문제확인 (https://dreamhack.io/wargame/challenges/834) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 Input 값을 넣는 페이지 확인 가능
 문제파일 다운후 코드 확인 가능
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_phpreg</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_phpreg/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_phpreg/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</guid>
       <description>1️⃣ DreamHack Web Beginner_phpreg 문제확인 (https://dreamhack.io/wargame/challenges/873) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
 문제파일 다운후 코드 확인 가능
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_simple-web-request</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_simple-web-request/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_simple-web-request/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_simple-web-request/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_simple-web-request/</guid>
       <description>1️⃣ DreamHack Web Beginner_simple-web-request 문제확인 (https://dreamhack.io/wargame/challenges/830) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 메인 페이지와 step1 을 확인 가능
 문제파일 다운후 코드 확인 가능
@@ -55,18 +55,18 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_devtools-sources</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_devtools-sources/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_devtools-sources/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</guid>
       <description>1️⃣ DreamHack Web Beginner_devtools-sources 문제확인 (https://dreamhack.io/wargame/challenges/267) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 이문제는 서버가 없으므로 다운로드된 파일에서 index.html 을 실행해본다
 📜풀이 개발자 도구에 들어가 여러가지 파일들을 확인하면 main.css에 주석으로 Flag 값을 확인할 수 있음</description>
     </item>
     <item>
       <title>DreamHack Web Beginner_Command_Injection1</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_command_injection1/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_command_injection1/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_command_injection1/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_command_injection1/</guid>
       <description>1️⃣ DreamHack Web Beginner_Command Injection1 문제확인 (https://dreamhack.io/wargame/challenges/44) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 Ping을 할 수 있는 사이트 확인
 문제파일 다운후 코드 확인 가능
@@ -74,9 +74,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_misconf1</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_misconf1/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_misconf1/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_misconf1/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_misconf1/</guid>
       <description>1️⃣ DreamHack Web Beginner_misconf1 문제확인 (https://dreamhack.io/wargame/challenges/45) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 그라파나 로그인 페이지 확인 가능
 문제파일 다운후 default.ini 설정 파일 확인 가능
@@ -84,9 +84,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_session</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_session/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_session/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_session/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_session/</guid>
       <description>1️⃣ DreamHack Web Beginner_session 문제확인 (https://dreamhack.io/wargame/challenges/266) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 로그인 페이지를 확인 할 수 있음
 문제파일 다운후 코드 확인 가능
@@ -94,9 +94,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_FileDownload1</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_filedownload1/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_filedownload1/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</guid>
       <description>1️⃣ DreamHack Web Beginner_File Download 1 문제확인 (https://dreamhack.io/wargame/challenges/37) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 메모를 업로드 할 수 있는 웹서비스 확인
 문제파일 다운후 코드 확인 가능
@@ -104,9 +104,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_Pathtraversal</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_pathtraversal/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_pathtraversal/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_pathtraversal/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_pathtraversal/</guid>
       <description>1️⃣ DreamHack Web Beginner_Pathtraversal 문제확인 (https://dreamhack.io/wargame/challenges/12) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 간단한 고객정보 페이지 확인
 문제파일 다운후 코드 확인 가능
@@ -114,9 +114,9 @@
     </item>
     <item>
       <title>DreamHack Web Beginner_Cookie</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_cookie/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_cookie/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</guid>
       <description>1️⃣ DreamHack Web Beginner_Cookie 문제확인 (https://dreamhack.io/wargame/challenges/6) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 간단한 로그인 페이지 확인
 문제파일 다운후 코드 확인 가능

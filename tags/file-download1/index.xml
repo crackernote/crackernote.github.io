@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>File Download1 on CrackerNote</title>
-    <link>http://localhost:1313/tags/file-download1/</link>
+    <link>https://crackernote.github.io/tags/file-download1/</link>
     <description>Recent content in File Download1 on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/file-download1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/tags/file-download1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DreamHack Web Beginner_FileDownload1</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_filedownload1/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_filedownload1/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</guid>
       <description>1️⃣ DreamHack Web Beginner_File Download 1 문제확인 (https://dreamhack.io/wargame/challenges/37) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 메모를 업로드 할 수 있는 웹서비스 확인
 문제파일 다운후 코드 확인 가능

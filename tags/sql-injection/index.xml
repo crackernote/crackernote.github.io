@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SQL Injection on CrackerNote</title>
-    <link>http://localhost:1313/tags/sql-injection/</link>
+    <link>https://crackernote.github.io/tags/sql-injection/</link>
     <description>Recent content in SQL Injection on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sql-injection/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/tags/sql-injection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Injection 취약점 점검</title>
-      <link>http://localhost:1313/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</link>
+      <link>https://crackernote.github.io/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</link>
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</guid>
+      <guid>https://crackernote.github.io/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</guid>
       <description>1️⃣ SQL Injection 취약점 점검 📜SQL Injection 에러 유/무 확인 취약점 유/무 확인 검색란의 경우, 연결연산자 사용 a. &amp;rsquo; &amp;rsquo; 로 사용하여 정상작동 한다면 (te&amp;rsquo; &amp;lsquo;st), Mysql b. &amp;lsquo;+&amp;rsquo; 로 사용하여 정상작동 한다면 (te&amp;rsquo;+&amp;lsquo;st), Mssql c. &amp;lsquo;||&amp;rsquo; 로 사용하여 정상작동 한다면 (te&amp;rsquo;||&amp;lsquo;st), Oracle 조건 구문 완성 📜방법론 1) 검색기능에 대한 취약점 점검
 a. select * from board where title like &amp;lsquo;% &amp;lsquo;||(case when 1=1 then &amp;rsquo;test&amp;rsquo; else &amp;lsquo;aaaa&amp;rsquo; end)||&amp;rsquo; %&amp;rsquo;</description>
     </item>
     <item>
       <title>SQL Injection 우회기법</title>
-      <link>http://localhost:1313/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</link>
+      <link>https://crackernote.github.io/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</guid>
+      <guid>https://crackernote.github.io/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</guid>
       <description>1️⃣ SQL Injection 우회기법 📜SQL Injection 공격시 공백 문자 필터링시 우회 방법 Tab : %09 - no=1%09or%09id=&amp;lsquo;admin&amp;rsquo;
 Line Feed (\n): %0a - no=1%0aor%0aid=&amp;lsquo;admin&amp;rsquo;
 Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;

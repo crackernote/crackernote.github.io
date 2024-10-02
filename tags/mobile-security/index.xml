@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mobile Security on CrackerNote</title>
-    <link>http://localhost:1313/tags/mobile-security/</link>
+    <link>https://crackernote.github.io/tags/mobile-security/</link>
     <description>Recent content in Mobile Security on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mobile-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/tags/mobile-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FridaLab.apk WriteUp</title>
-      <link>http://localhost:1313/posts/fridalab.apk-writeup/</link>
+      <link>https://crackernote.github.io/posts/fridalab.apk-writeup/</link>
       <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fridalab.apk-writeup/</guid>
+      <guid>https://crackernote.github.io/posts/fridalab.apk-writeup/</guid>
       <description>1️⃣ FridaLab.apk WriteUp 📜FridaLab? - https://rossmarks.uk/blog/fridalab/ 에서 제공되는 Frida를 익히기 위한 Challenge APK
 📜FridaLab APP - FridaLab app을 Nox 환경에서 실행해 보면 8가지의 문제가 나오는 것을 알 수 있다.
 - 8가지 문제에 대하여 조건이 만족하면 check를 눌렀을때 색상이 Green으로 바뀐다. (조건이 만족하지 못하는 경우는 빨간색!)
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Android 보안모델</title>
-      <link>http://localhost:1313/posts/android-security-model/</link>
+      <link>https://crackernote.github.io/posts/android-security-model/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/android-security-model/</guid>
+      <guid>https://crackernote.github.io/posts/android-security-model/</guid>
       <description>1️⃣ Android 보안모델 - 기본적으로 리북스 커널이 제공하는 보안 기능을 사용
 - 스마트폰을 사용하는 방식에 맞게 보안 기능을 재구성
 - 애플리케이션 격리 : Sandbox, Permission, TrustZone
@@ -39,9 +39,9 @@
     </item>
     <item>
       <title>Android 아키텍처</title>
-      <link>http://localhost:1313/posts/android-architecture/</link>
+      <link>https://crackernote.github.io/posts/android-architecture/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/android-architecture/</guid>
+      <guid>https://crackernote.github.io/posts/android-architecture/</guid>
       <description>1️⃣ Android 아키텍처 📜리눅스 커널 - 리눅스 커널을 기반으로 하나, 일반 리눅스 커널과는 다름
 - 경량, 저전력, 안정화, 빠른 반응성 등이 주요 핵심
 - 로우 메로리 킬러, 웨이크락, 익명공유메모리, 바인더, 파라노이드 네트워킹 적용
@@ -53,9 +53,9 @@
     </item>
     <item>
       <title>Android App 구조</title>
-      <link>http://localhost:1313/posts/android-app/</link>
+      <link>https://crackernote.github.io/posts/android-app/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/android-app/</guid>
+      <guid>https://crackernote.github.io/posts/android-app/</guid>
       <description>1️⃣ Android App 구성요소 - 4대 컴포넌트 : 액티비티, 서비스, 컨텐츠 프로바이더, 브로드캐스트 리시버
 - 액티비티 : 앱의 기본 실행 단위
 - 서비스 : 백그라운드 작업을 위한 컴포넌트
@@ -66,18 +66,18 @@
     </item>
     <item>
       <title>Frida Basic</title>
-      <link>http://localhost:1313/posts/frida/</link>
+      <link>https://crackernote.github.io/posts/frida/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/frida/</guid>
+      <guid>https://crackernote.github.io/posts/frida/</guid>
       <description>1️⃣ Frida 기본 📜Frida? Ole가 개발한 DBI(Dynamic Binary Instrumention) 프레임 워크 (* Instrumentation : 앱이 실행중인 상태에서 코드 명령어를 삽입해 프로세스를 추적, 분석, 디버깅하는 도구) 📜Frida 특징 다양한 플랫폼에서 프로세스에 대한 인젝션이 가능해 큰 확장성을 가짐
 윈도우, 맥OS, GNU/Linux, iOS, Android 및 QNX에서 자바스크립트를 네이티브 앱에 삽입가능
 📜Frida 주요기능 함수 후킹 (특정 함수에 연결하여 반환 값 변경, 함수 재작성 등) 애플리케이션 디버깅 가능 힙 메모리 내 객체 인스턴스 검색 및 사용 실시간 트래픽 스니핑 또는 암호 해독 탈옥 또는 루팅되지 않은 단말기에서도 가능 📜**동작방식 📜Frida Tools frida (frida -h)</description>
     </item>
     <item>
       <title>Frida 환경세팅</title>
-      <link>http://localhost:1313/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</link>
+      <link>https://crackernote.github.io/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</guid>
+      <guid>https://crackernote.github.io/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</guid>
       <description>1️⃣ Frida 환경세팅 📜Frida 환경 녹스 앱 플레이어 (NoX) : samsung SM-G965N 아나콘다 (python) : 프리다는 Python 기반으로 작동하기 때문에 독립된 환경을 제공하는 아나콘다가 편리함 프리다 (12.6.11) 프리다 서버 (Android)(Server 12.6.11) Jadx 1.1.0 : Dex to Java decompiler Target App : 분석 할 앱들.. </description>
     </item>
   </channel>

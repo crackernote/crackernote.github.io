@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CrackerNote</title>
-    <link>http://localhost:1313/</link>
+    <link>https://crackernote.github.io/</link>
     <description>Recent content on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Certified Security 준비_문제풀이</title>
-      <link>http://localhost:1313/posts/aws-certified-security-%EC%A4%80%EB%B9%84/</link>
+      <link>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/aws-certified-security-%EC%A4%80%EB%B9%84/</guid>
+      <guid>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84/</guid>
       <description>1️⃣ AWS Certified Security 준비_문제풀이 ExamTopics 문제 풀기 (https://www.examtopics.com/exams/amazon/aws-certified-security-specialty/) 📜1번 질문 The Security team believes that a former employee may have gained unauthorized access to AWS resources sometime in the past 3 months by using an identified access key.What approach would enable the Security team to find out what the former employee may have done within AWS?보안 팀은 이전 직원이 식별된 액세스 키를 사용하여 지난 3개월 동안 AWS 리소스에 대한 무단 액세스 권한을 얻었을 수 있다고 생각합니다.</description>
     </item>
     <item>
       <title>AWS Certified Security 준비_용어정리</title>
-      <link>http://localhost:1313/posts/aws-certified-security-%EC%A4%80%EB%B9%84_%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</link>
+      <link>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84_%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/aws-certified-security-%EC%A4%80%EB%B9%84_%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</guid>
+      <guid>https://crackernote.github.io/posts/aws-certified-security-%EC%A4%80%EB%B9%84_%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</guid>
       <description>1️⃣ AWS Certified Security 준비_용어정리 ExamTopics 문제 풀이에서 나온 용어정리 📜1번 용어 내용 CloudTrail AWS CloudTrail 기업의 운영 및 위험 감사, 거버넌스 및 규정 준수를 지원하는 솔루션입니다. AWS 서비스 AWS 계정사용자, 역할 또는 AWS 서비스가 수행한 작업은 에 이벤트로 기록됩니다. CloudTrail 이벤트에는 AWS Management Console, AWS Command Line Interface, AWS SDKs 및 에서 수행한 작업이 포함됩니다APIs CloudWatch </description>
     </item>
     <item>
       <title>쿠팡 상품 크롤러</title>
-      <link>http://localhost:1313/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
+      <link>https://crackernote.github.io/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
+      <guid>https://crackernote.github.io/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
       <description>쿠팡 상품 크롤러 📜쿠팡 상품 크롤링 뉴스 검색 결과에서 제목 및 URL 크롤링
 조건 1. 100개까지만 상품 추출 조건 2. 광고상품 표시 조건 3. 엑셀 파일로 결과 저장 import requests from bs4 import BeautifulSoup import pyautogui import openpyxl keyword = pyautogui.prompt(&amp;#34;검색어를 입력하세요 &amp;gt;&amp;gt; &amp;#34;) wb = openpyxl.Workbook(&amp;#39;coupang_result.xlsx&amp;#39;) ws = wb.create_sheet(keyword) ws.append([&amp;#39;순위&amp;#39;,&amp;#39;브랜드명&amp;#39;,&amp;#39;상품명&amp;#39;,&amp;#39;가격&amp;#39;,&amp;#39;상세페이지링크&amp;#39;]) rank = 1 done = False for page in range(1,5): if done == True: break print(page, &amp;#34;번째 페이지 입니다.</description>
     </item>
     <item>
       <title>Ansible 설치 및 설정하기</title>
-      <link>http://localhost:1313/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</link>
+      <link>https://crackernote.github.io/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</guid>
+      <guid>https://crackernote.github.io/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</guid>
       <description>1. Ansible 설치 📜CentOS $ yum install -y ansible 📜Ubuntu $ apt install ansible 📜macOS $ brew install ansible 2. SSH 및 hosts 파일 설정 앤서블은 ssh로 제어 노드와 매니지드 노드가 연결됩니다. 앤서블을 이용하여 작업을 진행하기 전에 authorized_keys에 키를 추가하여 주는 것이 좋습니다. ssh-copy-id 명령을 이용하여 간편하게 키를 설정할 수 있습니다.
 📜ssh key 설정 # Ansible Control Node 에서 실행 # ssh 키 생성 $ ssh-keygen # ssh 키 복사 &amp;gt; Managed Node 로 연결하기 위함 # ssh 연결을 처리할 계정으로 연결 $ ssh-copy-id user@test-host.</description>
     </item>
     <item>
       <title>Ansible을 이용한 스크립트 실행방법</title>
-      <link>http://localhost:1313/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</link>
+      <link>https://crackernote.github.io/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</guid>
+      <guid>https://crackernote.github.io/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</guid>
       <description>1. 스크립트 실행을 위한 playbook 작성 Master Node에 있는 스크립트를 Control Node로 보내고 실행시켜, 실행값을 Master, Control Node 모두 csv 파일로 저장시킨다. 이렇게 여러 서버에 스크립트를 실행하여 Master Node에 결과값을 수집하여 관리가 가능하다.
 📜PlayBook 작성 #excute command example #ansible-playbook -i [inventory_file] --extra-vars &amp;#34;excute_group=[list] excute_date=[YYYYMMDD]&amp;#34; [playbook_file] --- - hosts: ubuntu_server #실행 대상 목록 gather_facts: no #대상 서버 정보 수집 여부 connection: ssh #접근 프로토콜 remote_user: ubuntu #대상 서버 접근 계정 become: yes #sudo 권한 사용 vars: src_path: /home/ansible/Desktop/script dst_path: /tmp/diagnosis/infra_script run_script: ubuntu.</description>
     </item>
     <item>
       <title>TryHackMe Basic Pentesting</title>
-      <link>http://localhost:1313/posts/tryhackme_basic-pentesting/</link>
+      <link>https://crackernote.github.io/posts/tryhackme_basic-pentesting/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tryhackme_basic-pentesting/</guid>
+      <guid>https://crackernote.github.io/posts/tryhackme_basic-pentesting/</guid>
       <description>TryHackMe Basic Pentesting 📜 Basic Pentesting &amp;ldquo;Basic Pentesting&amp;rdquo; is a beginner level pentesting room in TryHackMe.
 Let&amp;rsquo;s dive in the room.
 📜 Task 1. Find the services exposed by the machine I used Nmap tool to find the services running on the target system
@@ -65,18 +65,18 @@ SSH (Port 22) HTTP (Port 80) SAMBA (Port 139 &amp;amp; 445) HTTP-Proxy (Port 808
     </item>
     <item>
       <title>네이버 주식 현재가 정보 수집</title>
-      <link>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</link>
+      <link>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</guid>
+      <guid>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</guid>
       <description>1️⃣ 네이버 주식 현재가 정보 수집 네이버 증권 사이트 현재가 데이터를 파이썬으로 수집
 📜네이버 주식 현재가 크롤링 크롤링 해올 정보의 id 값과 URL의 파라미터를 확인 필요
 id=&amp;quot;_nowVal&amp;quot; / ?code=086960 (URL 상의 종목 코드 확인) import requests from bs4 import BeautifulSoup #종목 코드 리스트 codes = [ &amp;#39;005930&amp;#39;, &amp;#39;000660&amp;#39;, &amp;#39;035720&amp;#39; ] for code in codes: url = f&amp;#34;https://finance.naver.com/item/sise.naver?code={code}&amp;#34; reponse = requests.get(url) html = reponse.text soup = BeautifulSoup(html, &amp;#34;html.parser&amp;#34;) price = soup.select_one(&amp;#34;#_nowVal&amp;#34;).text price = price.</description>
     </item>
     <item>
       <title>crawler</title>
-      <link>http://localhost:1313/posts/crawler/</link>
+      <link>https://crackernote.github.io/posts/crawler/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/crawler/</guid>
+      <guid>https://crackernote.github.io/posts/crawler/</guid>
       <description>1️⃣ Crawler Python 을 이용한 Crawler
 📜crawler를 위해 필요한 내용들 requests
 HTTP 통신을 위한 Python 라이브러리 beautifulsoup
@@ -90,17 +90,17 @@ HTML &amp;lt;div class=&amp;#34;info_group&amp;#34;&amp;gt; 뉴스목록 &amp;lt
     </item>
     <item>
       <title>네이버 뉴스 크롤러</title>
-      <link>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
+      <link>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
+      <guid>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
       <description>네이버 뉴스 크롤러 📜네이버 뉴스 크롤링 네이버 뉴스 검색 &amp;gt; 일반, 연예, 스포츠 뉴스가 각각 다르게 크롤링 후 엑셀파일에 저장
 import requests from bs4 import BeautifulSoup import pyautogui from openpyxl import Workbook from openpyxl.styles import Alignment # 사용자 입력 keyword = pyautogui.prompt(&amp;#34;검색어를 입력하세요&amp;#34;) lastpage = int(pyautogui.prompt(&amp;#34;몇 페이지까지 크롤링 할까요?&amp;#34;)) pageNum = 1 # 엑셀 생성하기 wb = Workbook() # 워크 시트 생성하기 ws = wb.create_sheet(f&amp;#34;{keyword}&amp;#34;) # 열 너비 조절 ws.</description>
     </item>
     <item>
       <title>DreamHack Web Beginner_php7cmp4re</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_php7cmp4re/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_php7cmp4re/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_php7cmp4re/</guid>
       <description>1️⃣ DreamHack Web Beginner_php7cmp4re 문제확인 (https://dreamhack.io/wargame/challenges/1113) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
 문제파일 다운후 코드 확인 가능
@@ -108,9 +108,9 @@ import requests from bs4 import BeautifulSoup import pyautogui from openpyxl imp
     </item>
     <item>
       <title>Practical Tools</title>
-      <link>http://localhost:1313/posts/practical-tools/</link>
+      <link>https://crackernote.github.io/posts/practical-tools/</link>
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/practical-tools/</guid>
+      <guid>https://crackernote.github.io/posts/practical-tools/</guid>
       <description>1️⃣ Practical Tools 📜Netcat tcp , udp protocol 사용
 Connecting tcp/udp port
 nc -nv 10.11.0.22 4444 Listening on a TCP/UDP Port
@@ -122,9 +122,9 @@ sudo socat TCP4-LISTEN:443,fork file:secret_passwords.txt 📜Powershell and pow
     </item>
     <item>
       <title>linux 필수 command</title>
-      <link>http://localhost:1313/posts/linux-%EA%B8%B0%EC%B4%88/</link>
+      <link>https://crackernote.github.io/posts/linux-%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/linux-%EA%B8%B0%EC%B4%88/</guid>
+      <guid>https://crackernote.github.io/posts/linux-%EA%B8%B0%EC%B4%88/</guid>
       <description>1️⃣ linux 필수 Command 📜Man Pages man 📜apropos apropos 📜Listing Files ls -al 📜Moving Around cd
 pwd
 📜Creating Directories mkdir
@@ -146,9 +146,9 @@ sudo ss -antlp | grep apache</description>
     </item>
     <item>
       <title>Assembly 기초</title>
-      <link>http://localhost:1313/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
+      <link>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
+      <guid>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
       <description>1️⃣ Assembly 기초 📜프로그램과 메모리 - 프로세스 : 메모리에 로드된 프로그램
 - 프로그램은 크게 코드, 데이터로 나누어 볼 수 있음
 - 프로그램에서 사용하는 코드와 데이터는 메모리에 로드되며, 코드 실행 흐름에 따라 변화하는 값들은 스택 또는 힙에 쌓이게됨
@@ -159,9 +159,9 @@ sudo ss -antlp | grep apache</description>
     </item>
     <item>
       <title>DreamHack Web Beginner_ex-reg-ex</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_ex-reg-ex/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_ex-reg-ex/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_ex-reg-ex/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_ex-reg-ex/</guid>
       <description>1️⃣ DreamHack Web Beginner_ex-reg-ex 문제확인 (https://dreamhack.io/wargame/challenges/834) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 Input 값을 넣는 페이지 확인 가능
 문제파일 다운후 코드 확인 가능
@@ -169,9 +169,9 @@ sudo ss -antlp | grep apache</description>
     </item>
     <item>
       <title>DreamHack Web Beginner_phpreg</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_phpreg/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_phpreg/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_phpreg/</guid>
       <description>1️⃣ DreamHack Web Beginner_phpreg 문제확인 (https://dreamhack.io/wargame/challenges/873) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 id / pw 입력하는 부분 확인가능
 문제파일 다운후 코드 확인 가능
@@ -179,17 +179,17 @@ sudo ss -antlp | grep apache</description>
     </item>
     <item>
       <title>SQL Injection 취약점 점검</title>
-      <link>http://localhost:1313/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</link>
+      <link>https://crackernote.github.io/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</link>
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</guid>
+      <guid>https://crackernote.github.io/posts/sqli-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%A0%90%EA%B2%80/</guid>
       <description>1️⃣ SQL Injection 취약점 점검 📜SQL Injection 에러 유/무 확인 취약점 유/무 확인 검색란의 경우, 연결연산자 사용 a. &amp;rsquo; &amp;rsquo; 로 사용하여 정상작동 한다면 (te&amp;rsquo; &amp;lsquo;st), Mysql b. &amp;lsquo;+&amp;rsquo; 로 사용하여 정상작동 한다면 (te&amp;rsquo;+&amp;lsquo;st), Mssql c. &amp;lsquo;||&amp;rsquo; 로 사용하여 정상작동 한다면 (te&amp;rsquo;||&amp;lsquo;st), Oracle 조건 구문 완성 📜방법론 1) 검색기능에 대한 취약점 점검
 a. select * from board where title like &amp;lsquo;% &amp;lsquo;||(case when 1=1 then &amp;rsquo;test&amp;rsquo; else &amp;lsquo;aaaa&amp;rsquo; end)||&amp;rsquo; %&amp;rsquo;</description>
     </item>
     <item>
       <title>SQL Injection 우회기법</title>
-      <link>http://localhost:1313/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</link>
+      <link>https://crackernote.github.io/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</guid>
+      <guid>https://crackernote.github.io/posts/sql-injection-%EC%9A%B0%ED%9A%8C%EA%B8%B0%EB%B2%95/</guid>
       <description>1️⃣ SQL Injection 우회기법 📜SQL Injection 공격시 공백 문자 필터링시 우회 방법 Tab : %09 - no=1%09or%09id=&amp;lsquo;admin&amp;rsquo;
 Line Feed (\n): %0a - no=1%0aor%0aid=&amp;lsquo;admin&amp;rsquo;
 Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
@@ -199,17 +199,17 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>Reversing Basic</title>
-      <link>http://localhost:1313/posts/reversing-%EA%B8%B0%EC%B4%88/</link>
+      <link>https://crackernote.github.io/posts/reversing-%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/reversing-%EA%B8%B0%EC%B4%88/</guid>
+      <guid>https://crackernote.github.io/posts/reversing-%EA%B8%B0%EC%B4%88/</guid>
       <description>1️⃣ Reversing 기초 📜CPU 아키텍처 - CISC (복합 명령어 집합 구조) - 메모리 용량을 적게 차지하는 프로그램을 구성할 수 있도록 설계된 프로세스 - 소규모 라인의 프로그램으로 많은 작업을 수행하기 위해, 강력한 명령어를 명령어 집합에 포함 - 가변 명령어 형식과 길이, 많은 명령어 종류, 복잡한 주소 지정 방식, 복잡한 회로 구성 - 인텔 계열의 프로세서(X86/64)
 - RISC (축약 명령어 집합 구조) - 적은 수의 컴퓨터 명령어를 수행하도록 설계된 프로세서 - 단순하지만 더 빨리 실행되는 소수의 명령어를 사용하는 아키텍처 - 복잡하고 강력한 명령어 집합은 오히려 간단한 명령어의 해석과 실행 시간까지 증가시킴 &amp;raquo; CISC - 단순 명령어, 짧은 사이클 시간, 적재 및 저장 구조, 고정길이 명령어, 단순명령어 형식, 제한된 종류의 주소 지정 방식 - MIPS, ARM - IoT 디바이스 및 스마트폰에서 사용</description>
     </item>
     <item>
       <title>FridaLab.apk WriteUp</title>
-      <link>http://localhost:1313/posts/fridalab.apk-writeup/</link>
+      <link>https://crackernote.github.io/posts/fridalab.apk-writeup/</link>
       <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fridalab.apk-writeup/</guid>
+      <guid>https://crackernote.github.io/posts/fridalab.apk-writeup/</guid>
       <description>1️⃣ FridaLab.apk WriteUp 📜FridaLab? - https://rossmarks.uk/blog/fridalab/ 에서 제공되는 Frida를 익히기 위한 Challenge APK
 📜FridaLab APP - FridaLab app을 Nox 환경에서 실행해 보면 8가지의 문제가 나오는 것을 알 수 있다.
 - 8가지 문제에 대하여 조건이 만족하면 check를 눌렀을때 색상이 Green으로 바뀐다. (조건이 만족하지 못하는 경우는 빨간색!)
@@ -217,18 +217,18 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>MySQL</title>
-      <link>http://localhost:1313/posts/mysql/</link>
+      <link>https://crackernote.github.io/posts/mysql/</link>
       <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mysql/</guid>
+      <guid>https://crackernote.github.io/posts/mysql/</guid>
       <description>1️⃣ MySQL MySQL의 Database, INFORMATION_SCHEMA를 사용하여 데이터베이스에 접근하는 방법에 대해 설명합니다.
 📜Database Database: 필요한 데이터를 유기적으로 결합하여 저장한 집합체: 통합된 정보들을 저장하여 운영할 수 있는 공용 데이터들의 묶음 데이터베이스는(Database) 여러 사람이 공유하여 사용할 목적으로 통합, 관리하는 데이터의 집합입니다. 새로운 환경에서도 기존의 데이터를 효율적으로 사용할 수 있도록 데이터를 구조화하여 저장한 것입니다.
 📜MySQL SQL은 Structured Query Language의 약자입니다. SQL은 데이터베이스에서 데이터를 정의, 조작, 제어하기 위해 사용하는 언어입니다. 그 중에서도 이 포스트는 MySQL 8.</description>
     </item>
     <item>
       <title>Android 보안모델</title>
-      <link>http://localhost:1313/posts/android-security-model/</link>
+      <link>https://crackernote.github.io/posts/android-security-model/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/android-security-model/</guid>
+      <guid>https://crackernote.github.io/posts/android-security-model/</guid>
       <description>1️⃣ Android 보안모델 - 기본적으로 리북스 커널이 제공하는 보안 기능을 사용
 - 스마트폰을 사용하는 방식에 맞게 보안 기능을 재구성
 - 애플리케이션 격리 : Sandbox, Permission, TrustZone
@@ -240,9 +240,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>Android 아키텍처</title>
-      <link>http://localhost:1313/posts/android-architecture/</link>
+      <link>https://crackernote.github.io/posts/android-architecture/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/android-architecture/</guid>
+      <guid>https://crackernote.github.io/posts/android-architecture/</guid>
       <description>1️⃣ Android 아키텍처 📜리눅스 커널 - 리눅스 커널을 기반으로 하나, 일반 리눅스 커널과는 다름
 - 경량, 저전력, 안정화, 빠른 반응성 등이 주요 핵심
 - 로우 메로리 킬러, 웨이크락, 익명공유메모리, 바인더, 파라노이드 네트워킹 적용
@@ -254,9 +254,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>Android App 구조</title>
-      <link>http://localhost:1313/posts/android-app/</link>
+      <link>https://crackernote.github.io/posts/android-app/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/android-app/</guid>
+      <guid>https://crackernote.github.io/posts/android-app/</guid>
       <description>1️⃣ Android App 구성요소 - 4대 컴포넌트 : 액티비티, 서비스, 컨텐츠 프로바이더, 브로드캐스트 리시버
 - 액티비티 : 앱의 기본 실행 단위
 - 서비스 : 백그라운드 작업을 위한 컴포넌트
@@ -267,9 +267,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>File Upload 취약점</title>
-      <link>http://localhost:1313/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</link>
+      <link>https://crackernote.github.io/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</guid>
+      <guid>https://crackernote.github.io/posts/file-upload-%EC%B7%A8%EC%95%BD%EC%A0%90/</guid>
       <description>1️⃣ File Upload 취약점 정리 📜**File Upload 취약점 - 서버에 악성스크립트 업로드 하는것
 - web server에 업로드 할수 있느냐, WAS에 업로드하느냐가 엄청큰 차이다.
 - PHP기반웹사이트이면 – PHP 파일 업로드
@@ -282,25 +282,25 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>Frida Basic</title>
-      <link>http://localhost:1313/posts/frida/</link>
+      <link>https://crackernote.github.io/posts/frida/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/frida/</guid>
+      <guid>https://crackernote.github.io/posts/frida/</guid>
       <description>1️⃣ Frida 기본 📜Frida? Ole가 개발한 DBI(Dynamic Binary Instrumention) 프레임 워크 (* Instrumentation : 앱이 실행중인 상태에서 코드 명령어를 삽입해 프로세스를 추적, 분석, 디버깅하는 도구) 📜Frida 특징 다양한 플랫폼에서 프로세스에 대한 인젝션이 가능해 큰 확장성을 가짐
 윈도우, 맥OS, GNU/Linux, iOS, Android 및 QNX에서 자바스크립트를 네이티브 앱에 삽입가능
 📜Frida 주요기능 함수 후킹 (특정 함수에 연결하여 반환 값 변경, 함수 재작성 등) 애플리케이션 디버깅 가능 힙 메모리 내 객체 인스턴스 검색 및 사용 실시간 트래픽 스니핑 또는 암호 해독 탈옥 또는 루팅되지 않은 단말기에서도 가능 📜**동작방식 📜Frida Tools frida (frida -h)</description>
     </item>
     <item>
       <title>Frida 환경세팅</title>
-      <link>http://localhost:1313/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</link>
+      <link>https://crackernote.github.io/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</guid>
+      <guid>https://crackernote.github.io/posts/frida-%ED%99%98%EA%B2%BD%EC%84%B8%ED%8C%85/</guid>
       <description>1️⃣ Frida 환경세팅 📜Frida 환경 녹스 앱 플레이어 (NoX) : samsung SM-G965N 아나콘다 (python) : 프리다는 Python 기반으로 작동하기 때문에 독립된 환경을 제공하는 아나콘다가 편리함 프리다 (12.6.11) 프리다 서버 (Android)(Server 12.6.11) Jadx 1.1.0 : Dex to Java decompiler Target App : 분석 할 앱들.. </description>
     </item>
     <item>
       <title>DreamHack Web Beginner_simple-web-request</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_simple-web-request/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_simple-web-request/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_simple-web-request/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_simple-web-request/</guid>
       <description>1️⃣ DreamHack Web Beginner_simple-web-request 문제확인 (https://dreamhack.io/wargame/challenges/830) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 메인 페이지와 step1 을 확인 가능
 문제파일 다운후 코드 확인 가능
@@ -308,26 +308,26 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>DreamHack Web Beginner_devtools-sources</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_devtools-sources/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_devtools-sources/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</guid>
       <description>1️⃣ DreamHack Web Beginner_devtools-sources 문제확인 (https://dreamhack.io/wargame/challenges/267) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 이문제는 서버가 없으므로 다운로드된 파일에서 index.html 을 실행해본다
 📜풀이 개발자 도구에 들어가 여러가지 파일들을 확인하면 main.css에 주석으로 Flag 값을 확인할 수 있음</description>
     </item>
     <item>
       <title>Active Directory Cheatsheet</title>
-      <link>http://localhost:1313/posts/active-directory-cheatsheet/</link>
+      <link>https://crackernote.github.io/posts/active-directory-cheatsheet/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/active-directory-cheatsheet/</guid>
+      <guid>https://crackernote.github.io/posts/active-directory-cheatsheet/</guid>
       <description>1️⃣ Active Directory Cheatsheet Perform user hunting to track down where users are logged into in the network - find users that are members of high-value groups. Dump credentials and/or obtain Kerberos tickets. Gain access to the user&amp;rsquo;s machine using creds/ticket. (Possibly) escalate privileges in the machine. Repeat steps above until you have administrative privileges in the Domain Controller. 📜AD Enumeration - Users / Groups / Computers
 상위 권한을 가진 user 찾기 메서드 설명 onCreate() 액티비티 생성 시 호출, 화면에 보이는 뷰의 일반적인 상태를 설정 onStart() 액티비티가 사용자에게 표시되기 직전에 호출 onResume() 액티비티가 사용자와 상호작용 하기 전에 호출 onPause() 시스템이 다른 액티비티를 재개하지 직전에 호출 onStop() 액티비티가 더이상 사용자에게 표시되지 않을 때 호출 onDestroy() 액티비티 소멸 전에 호출(마지막 호출) 📜**액티비티 Flow !</description>
     </item>
     <item>
       <title>DreamHack Web Beginner_Command_Injection1</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_command_injection1/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_command_injection1/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_command_injection1/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_command_injection1/</guid>
       <description>1️⃣ DreamHack Web Beginner_Command Injection1 문제확인 (https://dreamhack.io/wargame/challenges/44) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 Ping을 할 수 있는 사이트 확인
 문제파일 다운후 코드 확인 가능
@@ -335,9 +335,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>DreamHack Web Beginner_misconf1</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_misconf1/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_misconf1/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_misconf1/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_misconf1/</guid>
       <description>1️⃣ DreamHack Web Beginner_misconf1 문제확인 (https://dreamhack.io/wargame/challenges/45) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 그라파나 로그인 페이지 확인 가능
 문제파일 다운후 default.ini 설정 파일 확인 가능
@@ -345,9 +345,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>DreamHack Web Beginner_session</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_session/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_session/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_session/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_session/</guid>
       <description>1️⃣ DreamHack Web Beginner_session 문제확인 (https://dreamhack.io/wargame/challenges/266) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 로그인 페이지를 확인 할 수 있음
 문제파일 다운후 코드 확인 가능
@@ -355,9 +355,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>DreamHack Web Beginner_FileDownload1</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_filedownload1/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_filedownload1/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_filedownload1/</guid>
       <description>1️⃣ DreamHack Web Beginner_File Download 1 문제확인 (https://dreamhack.io/wargame/challenges/37) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 메모를 업로드 할 수 있는 웹서비스 확인
 문제파일 다운후 코드 확인 가능
@@ -365,9 +365,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>DreamHack Web Beginner_Pathtraversal</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_pathtraversal/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_pathtraversal/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_pathtraversal/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_pathtraversal/</guid>
       <description>1️⃣ DreamHack Web Beginner_Pathtraversal 문제확인 (https://dreamhack.io/wargame/challenges/12) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 간단한 고객정보 페이지 확인
 문제파일 다운후 코드 확인 가능
@@ -375,9 +375,9 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>DreamHack Web Beginner_Cookie</title>
-      <link>http://localhost:1313/posts/dreamhack_web_beginner_cookie/</link>
+      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dreamhack_web_beginner_cookie/</guid>
+      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_cookie/</guid>
       <description>1️⃣ DreamHack Web Beginner_Cookie 문제확인 (https://dreamhack.io/wargame/challenges/6) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 서버 오픈 후 접속하면 아래와 같이 간단한 로그인 페이지 확인
 문제파일 다운후 코드 확인 가능
@@ -385,16 +385,16 @@ Carrage Return(\r) : %0d - no=1%0dor%0did=&amp;lsquo;admin&amp;rsquo;
     </item>
     <item>
       <title>about</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://crackernote.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://crackernote.github.io/about/</guid>
       <description>about</description>
     </item>
     <item>
       <title>x86 Assembly 기초</title>
-      <link>http://localhost:1313/posts/x86-%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
+      <link>https://crackernote.github.io/posts/x86-%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/x86-%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
+      <guid>https://crackernote.github.io/posts/x86-%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
       <description>1️⃣ X86 Assembly 기초 📜x86 아키텍처 - 데이터 타입 : 어셈블리 기본
 - 주소 표기법 : 리틀 엔디안
 - 레지스터 : 8개의 범용 레지스터, EIP, EFLAGS

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Frida WriteUp on CrackerNote</title>
-    <link>http://localhost:1313/tags/frida-writeup/</link>
+    <link>https://crackernote.github.io/tags/frida-writeup/</link>
     <description>Recent content in Frida WriteUp on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/frida-writeup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/tags/frida-writeup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FridaLab.apk WriteUp</title>
-      <link>http://localhost:1313/posts/fridalab.apk-writeup/</link>
+      <link>https://crackernote.github.io/posts/fridalab.apk-writeup/</link>
       <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fridalab.apk-writeup/</guid>
+      <guid>https://crackernote.github.io/posts/fridalab.apk-writeup/</guid>
       <description>1️⃣ FridaLab.apk WriteUp 📜FridaLab? - https://rossmarks.uk/blog/fridalab/ 에서 제공되는 Frida를 익히기 위한 Challenge APK
 📜FridaLab APP - FridaLab app을 Nox 환경에서 실행해 보면 8가지의 문제가 나오는 것을 알 수 있다.
 - 8가지 문제에 대하여 조건이 만족하면 check를 눌렀을때 색상이 Green으로 바뀐다. (조건이 만족하지 못하는 경우는 빨간색!)

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Crawler on CrackerNote</title>
-    <link>http://localhost:1313/tags/crawler/</link>
+    <link>https://crackernote.github.io/tags/crawler/</link>
     <description>Recent content in Crawler on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/crawler/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://crackernote.github.io/tags/crawler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>쿠팡 상품 크롤러</title>
-      <link>http://localhost:1313/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
+      <link>https://crackernote.github.io/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
+      <guid>https://crackernote.github.io/posts/%EC%BF%A0%ED%8C%A1-%EC%83%81%ED%92%88-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
       <description>쿠팡 상품 크롤러 📜쿠팡 상품 크롤링 뉴스 검색 결과에서 제목 및 URL 크롤링
 조건 1. 100개까지만 상품 추출 조건 2. 광고상품 표시 조건 3. 엑셀 파일로 결과 저장 import requests from bs4 import BeautifulSoup import pyautogui import openpyxl keyword = pyautogui.prompt(&amp;#34;검색어를 입력하세요 &amp;gt;&amp;gt; &amp;#34;) wb = openpyxl.Workbook(&amp;#39;coupang_result.xlsx&amp;#39;) ws = wb.create_sheet(keyword) ws.append([&amp;#39;순위&amp;#39;,&amp;#39;브랜드명&amp;#39;,&amp;#39;상품명&amp;#39;,&amp;#39;가격&amp;#39;,&amp;#39;상세페이지링크&amp;#39;]) rank = 1 done = False for page in range(1,5): if done == True: break print(page, &amp;#34;번째 페이지 입니다.</description>
     </item>
     <item>
       <title>네이버 주식 현재가 정보 수집</title>
-      <link>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</link>
+      <link>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</guid>
+      <guid>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%A3%BC%EC%8B%9D-%ED%98%84%EC%9E%AC%EA%B0%80-%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A7%91/</guid>
       <description>1️⃣ 네이버 주식 현재가 정보 수집 네이버 증권 사이트 현재가 데이터를 파이썬으로 수집
 📜네이버 주식 현재가 크롤링 크롤링 해올 정보의 id 값과 URL의 파라미터를 확인 필요
 id=&amp;quot;_nowVal&amp;quot; / ?code=086960 (URL 상의 종목 코드 확인) import requests from bs4 import BeautifulSoup #종목 코드 리스트 codes = [ &amp;#39;005930&amp;#39;, &amp;#39;000660&amp;#39;, &amp;#39;035720&amp;#39; ] for code in codes: url = f&amp;#34;https://finance.naver.com/item/sise.naver?code={code}&amp;#34; reponse = requests.get(url) html = reponse.text soup = BeautifulSoup(html, &amp;#34;html.parser&amp;#34;) price = soup.select_one(&amp;#34;#_nowVal&amp;#34;).text price = price.</description>
     </item>
     <item>
       <title>crawler</title>
-      <link>http://localhost:1313/posts/crawler/</link>
+      <link>https://crackernote.github.io/posts/crawler/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/crawler/</guid>
+      <guid>https://crackernote.github.io/posts/crawler/</guid>
       <description>1️⃣ Crawler Python 을 이용한 Crawler
 📜crawler를 위해 필요한 내용들 requests
 HTTP 통신을 위한 Python 라이브러리 beautifulsoup
@@ -48,9 +48,9 @@ HTML &amp;lt;div class=&amp;#34;info_group&amp;#34;&amp;gt; 뉴스목록 &amp;lt
     </item>
     <item>
       <title>네이버 뉴스 크롤러</title>
-      <link>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
+      <link>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
+      <guid>https://crackernote.github.io/posts/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%89%B4%EC%8A%A4-%ED%81%AC%EB%A1%A4%EB%9F%AC/</guid>
       <description>네이버 뉴스 크롤러 📜네이버 뉴스 크롤링 네이버 뉴스 검색 &amp;gt; 일반, 연예, 스포츠 뉴스가 각각 다르게 크롤링 후 엑셀파일에 저장
 import requests from bs4 import BeautifulSoup import pyautogui from openpyxl import Workbook from openpyxl.styles import Alignment # 사용자 입력 keyword = pyautogui.prompt(&amp;#34;검색어를 입력하세요&amp;#34;) lastpage = int(pyautogui.prompt(&amp;#34;몇 페이지까지 크롤링 할까요?&amp;#34;)) pageNum = 1 # 엑셀 생성하기 wb = Workbook() # 워크 시트 생성하기 ws = wb.create_sheet(f&amp;#34;{keyword}&amp;#34;) # 열 너비 조절 ws.</description>
     </item>
