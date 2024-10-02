@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ansible on CrackerNote</title>
-    <link>https://crackernote.github.io/tags/ansible/</link>
+    <link>http://localhost:1313/tags/ansible/</link>
     <description>Recent content in Ansible on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://crackernote.github.io/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ansible 설치 및 설정하기</title>
-      <link>https://crackernote.github.io/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</link>
+      <link>http://localhost:1313/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</guid>
+      <guid>http://localhost:1313/posts/ansible-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/</guid>
       <description>1. Ansible 설치 📜CentOS $ yum install -y ansible 📜Ubuntu $ apt install ansible 📜macOS $ brew install ansible 2. SSH 및 hosts 파일 설정 앤서블은 ssh로 제어 노드와 매니지드 노드가 연결됩니다. 앤서블을 이용하여 작업을 진행하기 전에 authorized_keys에 키를 추가하여 주는 것이 좋습니다. ssh-copy-id 명령을 이용하여 간편하게 키를 설정할 수 있습니다.
 📜ssh key 설정 # Ansible Control Node 에서 실행 # ssh 키 생성 $ ssh-keygen # ssh 키 복사 &amp;gt; Managed Node 로 연결하기 위함 # ssh 연결을 처리할 계정으로 연결 $ ssh-copy-id user@test-host.</description>
     </item>
     <item>
       <title>Ansible을 이용한 스크립트 실행방법</title>
-      <link>https://crackernote.github.io/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</link>
+      <link>http://localhost:1313/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</guid>
+      <guid>http://localhost:1313/posts/ansible-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89%EB%B0%A9%EB%B2%95/</guid>
       <description>1. 스크립트 실행을 위한 playbook 작성 Master Node에 있는 스크립트를 Control Node로 보내고 실행시켜, 실행값을 Master, Control Node 모두 csv 파일로 저장시킨다. 이렇게 여러 서버에 스크립트를 실행하여 Master Node에 결과값을 수집하여 관리가 가능하다.
 📜PlayBook 작성 #excute command example #ansible-playbook -i [inventory_file] --extra-vars &amp;#34;excute_group=[list] excute_date=[YYYYMMDD]&amp;#34; [playbook_file] --- - hosts: ubuntu_server #실행 대상 목록 gather_facts: no #대상 서버 정보 수집 여부 connection: ssh #접근 프로토콜 remote_user: ubuntu #대상 서버 접근 계정 become: yes #sudo 권한 사용 vars: src_path: /home/ansible/Desktop/script dst_path: /tmp/diagnosis/infra_script run_script: ubuntu.</description>
     </item>

@@ -2,288 +2,288 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on CrackerNote</title>
-    <link>https://crackernote.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://crackernote.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Certified Security</title>
-      <link>https://crackernote.github.io/tags/aws-certified-security/</link>
+      <link>http://localhost:1313/tags/aws-certified-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/aws-certified-security/</guid>
+      <guid>http://localhost:1313/tags/aws-certified-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Security</title>
-      <link>https://crackernote.github.io/tags/cloud-security/</link>
+      <link>http://localhost:1313/tags/cloud-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/cloud-security/</guid>
+      <guid>http://localhost:1313/tags/cloud-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://crackernote.github.io/tags/automation/</link>
+      <link>http://localhost:1313/tags/automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/automation/</guid>
+      <guid>http://localhost:1313/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>https://crackernote.github.io/tags/coding/</link>
+      <link>http://localhost:1313/tags/coding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/coding/</guid>
+      <guid>http://localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Crawler</title>
-      <link>https://crackernote.github.io/tags/crawler/</link>
+      <link>http://localhost:1313/tags/crawler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/crawler/</guid>
+      <guid>http://localhost:1313/tags/crawler/</guid>
       <description></description>
     </item>
     <item>
       <title>Ansible</title>
-      <link>https://crackernote.github.io/tags/ansible/</link>
+      <link>http://localhost:1313/tags/ansible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/ansible/</guid>
+      <guid>http://localhost:1313/tags/ansible/</guid>
       <description></description>
     </item>
     <item>
       <title>Basic Pentesting</title>
-      <link>https://crackernote.github.io/tags/basic-pentesting/</link>
+      <link>http://localhost:1313/tags/basic-pentesting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/basic-pentesting/</guid>
+      <guid>http://localhost:1313/tags/basic-pentesting/</guid>
       <description></description>
     </item>
     <item>
       <title>TryHackMe</title>
-      <link>https://crackernote.github.io/tags/tryhackme/</link>
+      <link>http://localhost:1313/tags/tryhackme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/tryhackme/</guid>
+      <guid>http://localhost:1313/tags/tryhackme/</guid>
       <description></description>
     </item>
     <item>
       <title>WriteUp</title>
-      <link>https://crackernote.github.io/tags/writeup/</link>
+      <link>http://localhost:1313/tags/writeup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/writeup/</guid>
+      <guid>http://localhost:1313/tags/writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>취약점 분석</title>
-      <link>https://crackernote.github.io/tags/%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D/</link>
+      <link>http://localhost:1313/tags/%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D/</guid>
+      <guid>http://localhost:1313/tags/%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D/</guid>
       <description></description>
     </item>
     <item>
       <title>Beginner</title>
-      <link>https://crackernote.github.io/tags/beginner/</link>
+      <link>http://localhost:1313/tags/beginner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/beginner/</guid>
+      <guid>http://localhost:1313/tags/beginner/</guid>
       <description></description>
     </item>
     <item>
       <title>DreamHack</title>
-      <link>https://crackernote.github.io/tags/dreamhack/</link>
+      <link>http://localhost:1313/tags/dreamhack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/dreamhack/</guid>
+      <guid>http://localhost:1313/tags/dreamhack/</guid>
       <description></description>
     </item>
     <item>
       <title>Php7cmp4re</title>
-      <link>https://crackernote.github.io/tags/php7cmp4re/</link>
+      <link>http://localhost:1313/tags/php7cmp4re/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/php7cmp4re/</guid>
+      <guid>http://localhost:1313/tags/php7cmp4re/</guid>
       <description></description>
     </item>
     <item>
       <title>Wargame</title>
-      <link>https://crackernote.github.io/tags/wargame/</link>
+      <link>http://localhost:1313/tags/wargame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/wargame/</guid>
+      <guid>http://localhost:1313/tags/wargame/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>https://crackernote.github.io/tags/web/</link>
+      <link>http://localhost:1313/tags/web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/web/</guid>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Offensive Security</title>
-      <link>https://crackernote.github.io/tags/offensive-security/</link>
+      <link>http://localhost:1313/tags/offensive-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/offensive-security/</guid>
+      <guid>http://localhost:1313/tags/offensive-security/</guid>
       <description></description>
     </item>
     <item>
       <title>OSCP</title>
-      <link>https://crackernote.github.io/tags/oscp/</link>
+      <link>http://localhost:1313/tags/oscp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/oscp/</guid>
+      <guid>http://localhost:1313/tags/oscp/</guid>
       <description></description>
     </item>
     <item>
       <title>Penetration Testing</title>
-      <link>https://crackernote.github.io/tags/penetration-testing/</link>
+      <link>http://localhost:1313/tags/penetration-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/penetration-testing/</guid>
+      <guid>http://localhost:1313/tags/penetration-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Assembly</title>
-      <link>https://crackernote.github.io/tags/assembly/</link>
+      <link>http://localhost:1313/tags/assembly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/assembly/</guid>
+      <guid>http://localhost:1313/tags/assembly/</guid>
       <description></description>
     </item>
     <item>
       <title>Reversing</title>
-      <link>https://crackernote.github.io/tags/reversing/</link>
+      <link>http://localhost:1313/tags/reversing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/reversing/</guid>
+      <guid>http://localhost:1313/tags/reversing/</guid>
       <description></description>
     </item>
     <item>
       <title>Ex-Reg-Ex</title>
-      <link>https://crackernote.github.io/tags/ex-reg-ex/</link>
+      <link>http://localhost:1313/tags/ex-reg-ex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/ex-reg-ex/</guid>
+      <guid>http://localhost:1313/tags/ex-reg-ex/</guid>
       <description></description>
     </item>
     <item>
       <title>Phpreg</title>
-      <link>https://crackernote.github.io/tags/phpreg/</link>
+      <link>http://localhost:1313/tags/phpreg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/phpreg/</guid>
+      <guid>http://localhost:1313/tags/phpreg/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL Injection</title>
-      <link>https://crackernote.github.io/tags/sql-injection/</link>
+      <link>http://localhost:1313/tags/sql-injection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/sql-injection/</guid>
+      <guid>http://localhost:1313/tags/sql-injection/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Security</title>
-      <link>https://crackernote.github.io/tags/web-security/</link>
+      <link>http://localhost:1313/tags/web-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/web-security/</guid>
+      <guid>http://localhost:1313/tags/web-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Frida WriteUp</title>
-      <link>https://crackernote.github.io/tags/frida-writeup/</link>
+      <link>http://localhost:1313/tags/frida-writeup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/frida-writeup/</guid>
+      <guid>http://localhost:1313/tags/frida-writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile Security</title>
-      <link>https://crackernote.github.io/tags/mobile-security/</link>
+      <link>http://localhost:1313/tags/mobile-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/mobile-security/</guid>
+      <guid>http://localhost:1313/tags/mobile-security/</guid>
       <description></description>
     </item>
     <item>
       <title>MySQL</title>
-      <link>https://crackernote.github.io/tags/mysql/</link>
+      <link>http://localhost:1313/tags/mysql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/mysql/</guid>
+      <guid>http://localhost:1313/tags/mysql/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>https://crackernote.github.io/tags/android/</link>
+      <link>http://localhost:1313/tags/android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/android/</guid>
+      <guid>http://localhost:1313/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>File Upload Vuln</title>
-      <link>https://crackernote.github.io/tags/file-upload-vuln/</link>
+      <link>http://localhost:1313/tags/file-upload-vuln/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/file-upload-vuln/</guid>
+      <guid>http://localhost:1313/tags/file-upload-vuln/</guid>
       <description></description>
     </item>
     <item>
       <title>Frida</title>
-      <link>https://crackernote.github.io/tags/frida/</link>
+      <link>http://localhost:1313/tags/frida/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/frida/</guid>
+      <guid>http://localhost:1313/tags/frida/</guid>
       <description></description>
     </item>
     <item>
       <title>Simple-Web-Request</title>
-      <link>https://crackernote.github.io/tags/simple-web-request/</link>
+      <link>http://localhost:1313/tags/simple-web-request/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/simple-web-request/</guid>
+      <guid>http://localhost:1313/tags/simple-web-request/</guid>
       <description></description>
     </item>
     <item>
       <title>Devtools-Sources</title>
-      <link>https://crackernote.github.io/tags/devtools-sources/</link>
+      <link>http://localhost:1313/tags/devtools-sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/devtools-sources/</guid>
+      <guid>http://localhost:1313/tags/devtools-sources/</guid>
       <description></description>
     </item>
     <item>
       <title>Active Directory</title>
-      <link>https://crackernote.github.io/tags/active-directory/</link>
+      <link>http://localhost:1313/tags/active-directory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/active-directory/</guid>
+      <guid>http://localhost:1313/tags/active-directory/</guid>
       <description></description>
     </item>
     <item>
       <title>Command Injection</title>
-      <link>https://crackernote.github.io/tags/command-injection/</link>
+      <link>http://localhost:1313/tags/command-injection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/command-injection/</guid>
+      <guid>http://localhost:1313/tags/command-injection/</guid>
       <description></description>
     </item>
     <item>
       <title>Misconf1</title>
-      <link>https://crackernote.github.io/tags/misconf1/</link>
+      <link>http://localhost:1313/tags/misconf1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/misconf1/</guid>
+      <guid>http://localhost:1313/tags/misconf1/</guid>
       <description></description>
     </item>
     <item>
       <title>Session</title>
-      <link>https://crackernote.github.io/tags/session/</link>
+      <link>http://localhost:1313/tags/session/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/session/</guid>
+      <guid>http://localhost:1313/tags/session/</guid>
       <description></description>
     </item>
     <item>
       <title>File Download1</title>
-      <link>https://crackernote.github.io/tags/file-download1/</link>
+      <link>http://localhost:1313/tags/file-download1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/file-download1/</guid>
+      <guid>http://localhost:1313/tags/file-download1/</guid>
       <description></description>
     </item>
     <item>
       <title>Pathtraversal</title>
-      <link>https://crackernote.github.io/tags/pathtraversal/</link>
+      <link>http://localhost:1313/tags/pathtraversal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/pathtraversal/</guid>
+      <guid>http://localhost:1313/tags/pathtraversal/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie</title>
-      <link>https://crackernote.github.io/tags/cookie/</link>
+      <link>http://localhost:1313/tags/cookie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/tags/cookie/</guid>
+      <guid>http://localhost:1313/tags/cookie/</guid>
       <description></description>
     </item>
   </channel>

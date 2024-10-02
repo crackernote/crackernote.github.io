@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Devtools-Sources on CrackerNote</title>
-    <link>https://crackernote.github.io/tags/devtools-sources/</link>
+    <link>http://localhost:1313/tags/devtools-sources/</link>
     <description>Recent content in Devtools-Sources on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://crackernote.github.io/tags/devtools-sources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/devtools-sources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DreamHack Web Beginner_devtools-sources</title>
-      <link>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</link>
+      <link>http://localhost:1313/posts/dreamhack_web_beginner_devtools-sources/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/posts/dreamhack_web_beginner_devtools-sources/</guid>
+      <guid>http://localhost:1313/posts/dreamhack_web_beginner_devtools-sources/</guid>
       <description>1️⃣ DreamHack Web Beginner_devtools-sources 문제확인 (https://dreamhack.io/wargame/challenges/267) 풀이 📜문제확인 드림핵 사이트에서 문제 확인
 이문제는 서버가 없으므로 다운로드된 파일에서 index.html 을 실행해본다
 📜풀이 개발자 도구에 들어가 여러가지 파일들을 확인하면 main.css에 주석으로 Flag 값을 확인할 수 있음</description>

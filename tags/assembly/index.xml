@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Assembly on CrackerNote</title>
-    <link>https://crackernote.github.io/tags/assembly/</link>
+    <link>http://localhost:1313/tags/assembly/</link>
     <description>Recent content in Assembly on CrackerNote</description>
     <image>
       <title>CrackerNote</title>
-      <url>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://crackernote.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://crackernote.github.io/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Assembly 기초</title>
-      <link>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
+      <link>http://localhost:1313/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://crackernote.github.io/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
+      <guid>http://localhost:1313/posts/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC-%EA%B8%B0%EC%B4%88/</guid>
       <description>1️⃣ Assembly 기초 📜프로그램과 메모리 - 프로세스 : 메모리에 로드된 프로그램
 - 프로그램은 크게 코드, 데이터로 나누어 볼 수 있음
 - 프로그램에서 사용하는 코드와 데이터는 메모리에 로드되며, 코드 실행 흐름에 따라 변화하는 값들은 스택 또는 힙에 쌓이게됨
